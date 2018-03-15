@@ -1,0 +1,126 @@
+{
+	"textIds": [
+		"comm_eng_tske",
+		"eng_asv",
+		"eng_kjv",
+		"eng_kjv2006",
+		"eng_web",
+		"eng_ylt",
+		"grc_sblgnt",
+		"grc_wh",
+		"heb_wlc",
+		"vn_vni2018"
+	],
+	"textInfoData": [
+		{
+			"id": "comm_eng_tske",
+			"name": "Treasury of Scripture Knowledge (Enhanced)",
+			"nameEnglish": "",
+			"abbr": "TSKe",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "commentary"
+		},
+		{
+			"id": "eng_asv",
+			"name": "American Standard Version",
+			"nameEnglish": "",
+			"abbr": "ASV",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "eng_kjv",
+			"name": "King James Version",
+			"nameEnglish": "",
+			"abbr": "KJV",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "eng_kjv2006",
+			"name": "King James Version (2006)",
+			"nameEnglish": "",
+			"abbr": "KJV",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "eng_web",
+			"name": "World English Bible",
+			"nameEnglish": "",
+			"abbr": "WEB",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "eng_ylt",
+			"name": "Young's Literal Translation",
+			"nameEnglish": "",
+			"abbr": "YLT",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "grc_sblgnt",
+			"name": "SBL Greek New Testament",
+			"nameEnglish": "SBL Greek New Testament)",
+			"abbr": "SBLGNT",
+			"lang": "grc",
+			"langName": "ελληνικά",
+			"langNameEnglish": "Greek",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "grc_wh",
+			"name": "Wescott & Hort",
+			"nameEnglish": "",
+			"abbr": "GWH",
+			"lang": "grc",
+			"langName": "ελληνικά",
+			"langNameEnglish": "Greek",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "heb_wlc",
+			"name": "Westminster Leningrad Codex",
+			"nameEnglish": "Westminster Leningrad Codex",
+			"abbr": "WLC",
+			"lang": "heb",
+			"langName": "עִבְרִית",
+			"langNameEnglish": "Hebrew",
+			"dir": "rtl",
+			"type": "bible"
+		},
+		{
+			"id": "vn_vni2018",
+			"name": "VN-Greek Interlinear 2018",
+			"nameEnglish": "",
+			"abbr": "VNI",
+			"lang": "eng",
+			"langName": "English",
+			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		}
+	]
+}
