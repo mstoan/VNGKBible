@@ -9,7 +9,8 @@
 		"grc_sblgnt",
 		"grc_wh",
 		"heb_wlc",
-		"vn_vni2018"
+		"vn_vni2018",
+		"vnm_wh"
 	],
 	"textInfoData": [
 		{
@@ -119,6 +120,17 @@
 			"lang": "eng",
 			"langName": "English",
 			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "vnm_wh",
+			"name": "1934",
+			"nameEnglish": "",
+			"abbr": "VNM",
+			"lang": "vnm",
+			"langName": "Vietnamese",
+			"langNameEnglish": "Vietnamese",
 			"dir": "ltr",
 			"type": "bible"
 		}
