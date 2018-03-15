@@ -193,7 +193,32 @@ var LemmaPopupPlugin = function(app) {
 
 			},
 			error: function() {
-				lemmaPopup.body.html('Error loading ... ' + langPrefix + strongs[0] );
+				var html = '<div class="lemma-word">' +
+								'<span lang="' + iso2iana.convert(langCode) + '" dir="' + dir + '">' + strongsGreekDictionary[langPrefix + strongsNumber].lemma + '</span>' +
+								' ' +
+								'<span class="lemma-strongs" dir="ltr"> (' + strongsNumber + ')</span>' +
+							'</div>';
+
+
+
+				if (morphKey != '') {
+					html += '<span class="lemma-morphology">' + bible.morphology[morphType].format( morphKey ) + '</span>';
+				}
+
+				html += '<span class="lemma-findall" data-lemma="' + langPrefix + strongsNumber + '" data-textid="' + textid + '">' +
+					i18n.t('plugins.lemmapopup.findalloccurrences', {count: strongsGreekFrequencies[langPrefix+strongsNumber]}) +
+				'</span>';
+				html += '<div class="lemma-outline"><b>KJV:</b>' +strongsGreekDictionary[langPrefix + strongsNumber].kjv_def  + '</div>';
+				html += '<div class="lemma-outline"><b>Strong:</b>' +strongsGreekDictionary[langPrefix + strongsNumber].strongs_def + '</div>';
+
+				html += '<div class="lemma-outline"><b>Others:</b><br/>' + strongsGreekOutlines[langPrefix+strongsNumber] + '</div>';
+
+				lemmaPopup.body.removeClass('loading-indicator');
+
+				lemmaPopup.body.append( html );
+
+				lemmaPopup.position(l);
+
 			}
 
 
