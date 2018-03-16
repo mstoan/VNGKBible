@@ -125,12 +125,12 @@
 		},
 		{
 			"id": "vn_vni2018",
-			"name": "VN-Greek Interlinear 2018",
+			"name": "Việt-Hy-lạp 2018",
 			"nameEnglish": "",
 			"abbr": "VNI",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
+			"lang": "vnm",
+			"langName": "Vietnamese",
+			"langNameEnglish": "Vietnamese",
 			"dir": "ltr",
 			"type": "bible"
 		}
