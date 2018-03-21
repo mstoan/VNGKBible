@@ -115,7 +115,7 @@ var LemmaPopupPlugin = function(app) {
 		// remove G3588 and H853 (the) when there is more than two
 		if (strongs.length > 0) {
 			var articleIndex = -1;
-
+			
 			for (var i=0; i<strongs.length; i++) {
 				if ((strongs[i] == 3588 && langPrefix == 'G') || (strongs[i] == 853 && langPrefix == 'H')) {
 					articleIndex = i;
@@ -193,8 +193,20 @@ var LemmaPopupPlugin = function(app) {
 
 			},
 			error: function() {
+				
+
+				dic = strongsHebrewDictionary;
+				fre = strongsHebrewFrequencies;
+				outline = strongsHebrewOutlines;
+				
+				if (langPrefix == "G"){
+					dic = strongsGreekDictionary;
+					fre = strongsGreekFrequencies;
+					outline = strongsGreekOutlines;
+				}
+					
 				var html = '<div class="lemma-word">' +
-								'<span lang="' + iso2iana.convert(langCode) + '" dir="' + dir + '">' + strongsGreekDictionary[langPrefix + strongsNumber].lemma + '</span>' +
+								'<span lang="' + iso2iana.convert(langCode) + '" dir="' + dir + '">' + dic[langPrefix + strongsNumber].lemma + '</span>' +
 								' ' +
 								'<span class="lemma-strongs" dir="ltr"> (' + strongsNumber + ')</span>' +
 							'</div>';
@@ -206,12 +218,12 @@ var LemmaPopupPlugin = function(app) {
 				}
 
 				html += '<span class="lemma-findall" data-lemma="' + langPrefix + strongsNumber + '" data-textid="' + textid + '">' +
-					i18n.t('plugins.lemmapopup.findalloccurrences', {count: strongsGreekFrequencies[langPrefix+strongsNumber]}) +
+					i18n.t('plugins.lemmapopup.findalloccurrences', {count: fre[langPrefix+strongsNumber]}) +
 				'</span>';
-				html += '<div class="lemma-outline"><b>KJV:</b>' +strongsGreekDictionary[langPrefix + strongsNumber].kjv_def  + '</div>';
-				html += '<div class="lemma-outline"><b>Strong:</b>' +strongsGreekDictionary[langPrefix + strongsNumber].strongs_def + '</div>';
+				html += '<div class="lemma-outline"><b>KJV:</b>' +dic[langPrefix + strongsNumber].kjv_def  + '</div>';
+				html += '<div class="lemma-outline"><b>Strong:</b>' +dic[langPrefix + strongsNumber].strongs_def + '</div>';
 
-				html += '<div class="lemma-outline"><b>Others:</b><br/>' + strongsGreekOutlines[langPrefix+strongsNumber] + '</div>';
+				html += '<div class="lemma-outline"><b>Others:</b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
 
 				lemmaPopup.body.removeClass('loading-indicator');
 
