@@ -6,6 +6,7 @@
 		"eng_kjv2006",
 		"eng_web",
 		"eng_ylt",
+		"grc_lxx",
 		"grc_sblgnt",
 		"grc_wh",
 		"heb_wlc",
@@ -76,6 +77,17 @@
 			"lang": "eng",
 			"langName": "English",
 			"langNameEnglish": "English",
+			"dir": "ltr",
+			"type": "bible"
+		},
+		{
+			"id": "grc_lxx",
+			"name": "Septuagint",
+			"nameEnglish": "",
+			"abbr": "LXX",
+			"lang": "grc",
+			"langName": "ελληνικά",
+			"langNameEnglish": "Greek",
 			"dir": "ltr",
 			"type": "bible"
 		},
