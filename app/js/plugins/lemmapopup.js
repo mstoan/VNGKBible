@@ -196,11 +196,15 @@ var LemmaPopupPlugin = function(app) {
 				
 
 				dic = strongsHebrewDictionary;
+				dicVN = strongsHebrewVNDictionary;
+
 				fre = strongsHebrewFrequencies;
 				outline = strongsHebrewOutlines;
 				
 				if (langPrefix == "G"){
 					dic = strongsGreekDictionary;
+					dicVN = strongsGreekVNDictionary;
+
 					fre = strongsGreekFrequencies;
 					outline = strongsGreekOutlines;
 				}
@@ -222,6 +226,9 @@ var LemmaPopupPlugin = function(app) {
 				'</span>';
 				html += '<div class="lemma-outline"><b>KJV:</b>' +dic[langPrefix + strongsNumber].kjv_def  + '</div>';
 				html += '<div class="lemma-outline"><b>Strong:</b>' +dic[langPrefix + strongsNumber].strongs_def + '</div>';
+
+				html += '<div class="lemma-outline"><b>KJV VN:</b>' +dicVN[langPrefix + strongsNumber].kjv_def  + '</div>';
+				html += '<div class="lemma-outline"><b>Strong VN:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
 
 				html += '<div class="lemma-outline"><b>Others:</b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
 
