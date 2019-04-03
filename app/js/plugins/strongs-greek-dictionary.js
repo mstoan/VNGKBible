@@ -24,7 +24,7 @@
  * address provided on the website:
  * 
  * http://ulrikp.org
- * 
+ * msToan: SBLGNT Popup - KJV: and Strong:
  * Ulrik Petersen
  */
 
@@ -3682,7 +3682,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G2180":{"derivation":"from G2181 (Ἐφέσιος);","lemma":"Ἐφέσιος","kjv_def":"Ephesian, of Ephesus","strongs_def":" an Ephesian or inhabitant of Ephesus"},
 "G636":{"derivation":"from G575 (ἀποπλέω) and G4126 (ἀποπλέω);","lemma":"ἀποπλέω","kjv_def":"sail away","strongs_def":" to set sail"},
 "G368":{"derivation":"from G1 (ἀναντίῤῥητος) (as a negative particle) and a presumed derivative of a compound of G473 (ἀναντίῤῥητος) and G4483 (ἀναντίῤῥητος);","lemma":"ἀναντίῤῥητος","kjv_def":"cannot be spoken against","strongs_def":" indisputable"},
-"G2258":{"derivation":"imperfect of G1510 (ἦν);","lemma":"ἦν","kjv_def":"+ agree, be, X have (+ charge of), hold, use, was(-t), were","strongs_def":" I (thou, etc.) was (wast or were)"},
+"G2258":{"derivation":"imperfect of G1510 (ἦν);","lemma":"ἦν","kjv_def":"+ agree, be, X have (+ charge of), hold, use, was(-t), were","strongs_def":" [đã] là"},
 "G207":{"derivation":"probably for Latin aquila (an eagle);","lemma":"Ἀκύλας","kjv_def":"Aquila","strongs_def":" Akulas, an Israelite"},
 "G988":{"derivation":"from G989 (βλασφημία);","lemma":"βλασφημία","kjv_def":"blasphemy, evil speaking, railing","strongs_def":" vilification (especially against God)"},
 "G3646":{"derivation":"from a derivative of a compound of G3650 (ὁλοκαύτωμα) and a derivative of G2545 (ὁλοκαύτωμα);","lemma":"ὁλοκαύτωμα","kjv_def":"(whole) burnt offering","strongs_def":" a wholly-consumed sacrifice (\"holocaust\")"},
@@ -3987,7 +3987,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G110":{"derivation":"from a compound of G1 (ἀθανασία) (as a negative particle) and G2288 (ἀθανασία);","lemma":"ἀθανασία","kjv_def":"immortality","strongs_def":" deathlessness"},
 "G5290":{"derivation":"from G5259 (ὑποστρέφω) and G4762 (ὑποστρέφω);","lemma":"ὑποστρέφω","kjv_def":"come again, return (again, back again), turn back (again)","strongs_def":" to turn under (behind), i.e. to return (literally or figuratively)"},
 "G757":{"derivation":"a primary verb;","lemma":"ἄρχω","kjv_def":"reign (rule) over","strongs_def":" to be first (in political rank or power)"},
-"G2784":{"derivation":"of uncertain affinity;","lemma":"κηρύσσω","kjv_def":"preacher(-er), proclaim, publish","strongs_def":" to herald (as a public crier), especially divine truth (the gospel)"},
+"G2784":{"derivation":"of uncertain affinity;","lemma":"κηρύσσω","kjv_def":"Giảng, rao truyền, loan báo","strongs_def":" loan truyền (giữa công chúng),(giảng Phúc Âm)"},
 "G3193":{"derivation":"from G3192 (μελίσσιος);","lemma":"μελίσσιος","kjv_def":"honeycomb","strongs_def":" relating to honey, i.e. bee (comb)"},
 "G4848":{"derivation":"from G4862 (συμπορεύομαι) and G4198 (συμπορεύομαι);","lemma":"συμπορεύομαι","kjv_def":"go with, resort","strongs_def":" to journey together; by implication, to assemble"},
 "G4317":{"derivation":"from G4314 (προσάγω) and G71 (προσάγω);","lemma":"προσάγω","kjv_def":"bring, draw near","strongs_def":" to lead towards, i.e. (transitively) to conduct near (summon, present), or (intransitively) to approach"},

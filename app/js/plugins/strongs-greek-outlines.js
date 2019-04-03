@@ -3,7 +3,7 @@
  * Outlines of Usage by Strong's Number
  * ============
  * Copyright 2012, John Dyer (http:/j.hn/). CC-BY-SA.
- *
+ * msToan - Popup box in SBLGNT - Others:
  *
  * Parsed and cross-checked from several sites then combined into semantic HTML
  */
@@ -2792,7 +2792,7 @@ var strongsGreekOutlines = {
 "G2781": "<ol><li> honeycomb</li></ol>",
 "G2782": "<ol><li> that which is proclaimed by a herald or public crier, a proclamation by herald</li><li> in the NT the message or proclamation of the heralds of God or Christ</li></ol>",
 "G2783": "<ol><li> a herald or messenger vested with public authority, who conveyed the official messages of kings, magistrates, princes, military commanders, or who gave a public summons or demand, and performed various other duties. In the NT God's ambassador, and the herald or proclaimer of the divine word.</li></ol>",
-"G2784": "<ol><li> to be a herald, to officiate as a herald<ol><li> to proclaim after the manner of a herald</li><li> always with the suggestion of formality, gravity and an authority which must be listened to and obeyed</li></ol><li> to publish, proclaim openly: something which has been done</li><li> used of the public proclamation of the gospel and matters pertaining to it, made by John the Baptist, by Jesus, by the apostles and other Christian teachers</li></ol>",
+"G2784": "<ol><li> strongs-greek-outlines<ol><li> to proclaim after the manner of a herald</li><li> always with the suggestion of formality, gravity and an authority which must be listened to and obeyed</li></ol><li> to publish, proclaim openly: something which has been done</li><li> used of the public proclamation of the gospel and matters pertaining to it, made by John the Baptist, by Jesus, by the apostles and other Christian teachers</li></ol>",
 "G2785": "<ol><li> a sea monster, whale, huge fish</li></ol>",
 "G2786": "<span class=\"literal-meaning\">Cephas = &quot;stone&quot;</span><ol><li> another name for the apostle Peter</li></ol>",
 "G2787": "<ol><li> a wooden chest or box</li><li> in the NT the ark of the covenant, in the temple at Jerusalem</li><li> of Noah's vessel built in the form of an ark</li></ol>",

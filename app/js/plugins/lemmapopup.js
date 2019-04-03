@@ -224,13 +224,17 @@ var LemmaPopupPlugin = function(app) {
 				html += '<span class="lemma-findall" data-lemma="' + langPrefix + strongsNumber + '" data-textid="' + textid + '">' +
 					i18n.t('plugins.lemmapopup.findalloccurrences', {count: fre[langPrefix+strongsNumber]}) +
 				'</span>';
+				/* KJV and Strong KJV */
 				html += '<div class="lemma-outline"><b>KJV:</b>' +dic[langPrefix + strongsNumber].kjv_def  + '</div>';
 				html += '<div class="lemma-outline"><b>Strong:</b>' +dic[langPrefix + strongsNumber].strongs_def + '</div>';
 
-				html += '<div class="lemma-outline"><b>KJV VN:</b>' +dicVN[langPrefix + strongsNumber].kjv_def  + '</div>';
-				html += '<div class="lemma-outline"><b>Strong VN:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
+				/* MSToan VN:  get from strongs-greek-VN-dictionary.js */
+				html += '<div class="lemma-outline"><b>VN: </b>' +dicVN[langPrefix + strongsNumber].kjv_def  + '</div>';
+				/* Strong VN: */
+				html += '<div class="lemma-outline"><b>Văn:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
 
-				html += '<div class="lemma-outline"><b>Others:</b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
+				/* Others: */
+				html += '<div class="lemma-outline"><b>Others: </b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
 
 				lemmaPopup.body.removeClass('loading-indicator');
 

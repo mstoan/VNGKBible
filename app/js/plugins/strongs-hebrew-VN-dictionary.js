@@ -18,7 +18,7 @@
  *
  * Editing, corrections and Unicode transliterations
  * by David Troidl.
- *
+ * msToan - Popup box - Strong: and Việt:
  * Comments or corrections:
  * open-scriptures@googlegroups.com
  */
@@ -7247,7 +7247,7 @@ var strongsHebrewVNDictionary = {"H1":{"lemma":"אָב","xlit":"ʼâb","pron":"a
 "H7222":{"lemma":"רֹאשָׁה","xlit":"rôʼshâh","pron":"ro-shaw'","derivation":"feminine of H7218 (רֹאשׁ);","strongs_def":"the head","kjv_def":"head(-stone)."},
 "H7223":{"lemma":"רִאשׁוֹן","xlit":"riʼshôwn","pron":"ree-shone'","derivation":"or רִאשֹׁן; from H7221 (רִאשָׁה);","strongs_def":"first, in place, time or rank (as adjective or noun)","kjv_def":"ancestor, (that were) before(-time), beginning, eldest, first, fore(-father) (-most), former (thing), of old time, past."},
 "H7224":{"lemma":"רִאשֹׁנִי","xlit":"riʼshônîy","pron":"ree-sho-nee'","derivation":"from H7223 (רִאשׁוֹן);","strongs_def":"first","kjv_def":"first."},
-"H7225":{"lemma":"רֵאשִׁית","xlit":"rêʼshîyth","pron":"ray-sheeth'","derivation":"from the same as H7218 (רֹאשׁ);","strongs_def":"the first, in place, time, order or rank (specifically, a firstfruit)","kjv_def":"beginning, chief(-est), first(-fruits, part, time), principal thing."},
+"H7225":{"lemma":"רֵאשִׁית","xlit":"rêʼshîyth","pron":"ray-sheeth'","derivation":"from the same as H7218 (רֹאשׁ);","strongs_def":"the first, in place, time, order or rank (specifically, a firstfruit)","kjv_def":"Ban đầu, chief(-est), first(-fruits, part, time), principal thing."},
 "H7226":{"lemma":"רַאֲשֹׁת","xlit":"raʼăshôth","pron":"rah-ash-oth'","derivation":"from H7218 (רֹאשׁ);","strongs_def":"a pillow (being for the head)","kjv_def":"bolster."},
 "H7227":{"lemma":"רַב","xlit":"rab","pron":"rab","derivation":"by contracted from H7231 (רָבַב);","strongs_def":"abundant (in quantity, size, age, number, rank, quality)","kjv_def":"(in) abound(-undance, -ant, -antly), captain, elder, enough, exceedingly, full, great(-ly, man, one), increase, long (enough, (time)), (do, have) many(-ifold, things, a time), (ship-)master, mighty, more, (too, very) much, multiply(-tude), officer, often(-times), plenteous, populous, prince, process (of time), suffice(-lent)."},
 "H7228":{"lemma":"רַב","xlit":"rab","pron":"rab","derivation":"by contraction from H7232 (רָבַב); (or perhaps the same as H7227 (רַב))","strongs_def":"an archer","kjv_def":"archer."},
