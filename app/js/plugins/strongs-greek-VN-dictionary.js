@@ -785,7 +785,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G3448":{"derivation":"probably strengthened for (a shoot);","lemma":"μόσχος","kjv_def":"calf","strongs_def":" a young bullock"},
 "G4893":{"derivation":"from a prolonged form of G4894 (συνείδησις);","lemma":"συνείδησις","kjv_def":"conscience","strongs_def":" co-perception, i.e. moral consciousness"},
 "G4461":{"derivation":"of Hebrew origin (H07227 with pronominal suffix);","lemma":"ῥαββί","kjv_def":"Master, Rabbi","strongs_def":" my master, i.e Rabbi, as an official title of honor"},
-"G954":{"derivation":"of Chaldee origin (by parody on H01176);","lemma":"Βεελζεβούλ","kjv_def":"Beelzebub","strongs_def":" dung-god; Beelzebul, a name of Satan"},
+"G954":{"derivation":"of Chaldee origin (by parody on H01176);","lemma":"Βεελζεβούλ","kjv_def":"Bê-ên-xê-bun","strongs_def":" dung-god; Beelzebul, a name of Satan"},
 "G302":{"derivation":"a primary particle, denoting a supposition, wish, possibility or uncertainty","lemma":"ἄν","kjv_def":"(what-, where-, wither-, who-)soever"},
 "G3582":{"derivation":"as if from (properly, to smooth;","lemma":"ξέστης","kjv_def":"pot","strongs_def":" by implication, (of friction) to boil or heat); a vessel (as fashioned or for cooking) (or perhaps by corruption from the Latin sextarius, the sixth of a modius, i.e. about a pint), i.e. (specially), a measure for liquids or solids, (by analogy, a pitcher)"},
 "G1946":{"derivation":"from (compare G1947 (Ἐπικούρειος)) (a noted philosopher);","lemma":"Ἐπικούρειος","kjv_def":"Epicurean","strongs_def":" an Epicurean or follower of Epicurus"},
