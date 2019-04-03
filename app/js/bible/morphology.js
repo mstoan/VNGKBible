@@ -81,25 +81,24 @@ bible.morphology['robinson'] = {
 				if (rem.length == 2) {
 					formattedParsing = t + ', ' + v + ', ' + m;
 
-				} else if (rem.length == 5) {
-					var p = this.wordPerson[rem.substring(3, 4)];
-					var n = this.wordNumber[rem.substring(4, 5)];
+				} else if (rem.length == 4) {
+					var p = this.wordPerson[rem.substring(2, 3)];
+					var n = this.wordNumber[rem.substring(3, 4)];
 					formattedParsing =  t + ', ' + v + ', ' + m + ', ' + p + ', ' + n;
-
-				} else if (rem.length == 6) {
-					var c = this.nounCases[rem.substring(3, 4)];
-					var n = this.wordNumber[rem.substring(4, 5)];
-					var g = this.wordGender[rem.substring(5, 6)];
+				} 
+				else if (rem.length == 5) {
+					var c = this.nounCases[rem.substring(2, 3)];
+					var n = this.wordNumber[rem.substring(3, 4)];
+					var g = this.wordGender[rem.substring(4, 5)];
 
 					formattedParsing =  t + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
 				}
 				break;
-
-				//m = this.verbMoods[parsingInfo.substring(2+offset,3+offset)];
 			default:
 				formattedParsing =  parsingInfo;
 
 		}
+// formattedParsing = 't=' + t + '| ' + 'v=' + v + '| ' + 'm=' + m + '| ' + 'Rem=' + rem.length + ':' + rem + '| ' + 'c=' + c + '| ' + 'p=' + p + '| ' + 'n=' + n + '| ' + 'g=' + g; + '= ' + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
 
 		return (typeof partOfSpeech != 'undefined' ? partOfSpeech + (formattedParsing != '' ? ': ' : '') : '') + formattedParsing;
 
