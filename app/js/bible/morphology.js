@@ -21,6 +21,7 @@ bible.morphology['robinson'] = {
 		switch (partOfSpeechKey.toUpperCase()) {
 			case 'T':
 			case 'N':
+			case 'P': // Preposition
 			case 'R':
 			case 'C':
 			case 'D':
@@ -36,7 +37,7 @@ bible.morphology['robinson'] = {
 				formattedParsing = c + ((n) ? ', ' + n + ((g) ? ', ' + g : '') : '');
 				break;
 
-			case 'P':
+			case 'RP':
 
 				var firstLetter = parsingInfo.substr(0,1);
 				if (firstLetter == '1' || firstLetter == '2') {
@@ -109,9 +110,9 @@ bible.morphology['robinson'] = {
 		A: 'adjective',
 		T: 'article',
 		V: 'verb',
-		P: 'personal pronoun',
+		P: 'Preposition', //'personal pronoun',
 		R: 'relative pronoun',
-		C: 'reciprocal pronoun',
+		C: 'Conjunction', //'reciprocal pronoun',
 		D: 'demonstrative pronoun',
 		K: 'correlative pronoun',
 		I: 'interrogative pronoun',
@@ -124,6 +125,7 @@ bible.morphology['robinson'] = {
 		COND: 'cond',
 		PRT: 'particle',
 		PREP: 'preposition',
+		RP: 'Personal Pronoun',
 		INJ: 'interjection',
 		ARAM: 'aramaic',
 		HEB: 'hebrew'

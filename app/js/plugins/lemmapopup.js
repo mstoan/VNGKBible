@@ -115,14 +115,14 @@ var LemmaPopupPlugin = function(app) {
 		// remove G3588 and H853 (the) when there is more than two
 		if (strongs.length > 0) {
 			var articleIndex = -1;
-			
+	/*		
 			for (var i=0; i<strongs.length; i++) {
 				if ((strongs[i] == 3588 && langPrefix == 'G') || (strongs[i] == 853 && langPrefix == 'H')) {
 					articleIndex = i;
 					break;
 				}
 			}
-
+*/
 			if (articleIndex > -1) {
 				strongs.splice(articleIndex, 1);
 
