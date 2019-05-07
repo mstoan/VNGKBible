@@ -2,7 +2,7 @@ window.data = window.data || {};
 
 data.language = {
 
-	rtl: ['ar','arz','arc','dv','fa','ha','he','heb','khw','ks','ku','ps','ur','yi'],
+	rtl: ['ar','arz','arc','dv','fa','ha','he','heb','khw','ks','ku','ps','ur','yi','vie'],
 
 	isRTL: function(lang) {
 		return data.language.rtl.indexOf(lang) > -1;
