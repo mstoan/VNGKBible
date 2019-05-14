@@ -239,7 +239,7 @@ var VisualFilters = function(node) {
 		VisualTransformer.resetTransforms(visualSettings);
 	});
 
-	// this will be cancelled if the user clicks in an input
+	// this will be canceled if the user clicks in an input
 	filtersWindow.body.on('click', function(e) {
 
 		if (morphSelector.is(':visible')) {
