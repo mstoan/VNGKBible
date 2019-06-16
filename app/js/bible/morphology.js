@@ -106,26 +106,26 @@ bible.morphology['robinson'] = {
 	},
 
 	partsOfSpeech: {
-		N: 'noun',
-		A: 'adjective',
-		T: 'article',
-		V: 'verb',
-		P: 'Preposition', //'personal pronoun',
+		N: 'Danh-từ (Noun)',
+		A: 'Tính từ (Adjective)',
+		T: 'Mạo từ (Article)',
+		V: 'Động từ (Verb)',
+		P: 'Giới từ (Preposition)', //'personal pronoun',
 		R: 'relative pronoun',
-		C: 'Conjunction', //'reciprocal pronoun',
-		D: 'demonstrative pronoun',
+		C: 'Liên từ (Conjunction)', //'reciprocal pronoun',
+		D: 'Đại từ Chỉ Định (Demonstrative pronoun)',
 		K: 'correlative pronoun',
 		I: 'interrogative pronoun',
 		X: 'indefinite pronoun',
 		Q: 'correlative or interrogative pronoun',
 		F: 'reflexive pronoun',
 		S: 'posessive pronoun',
-		ADV: 'adverb',
-		CONJ: 'conjunction',
+		ADV: 'Phó từ(Adverb)',
+		CONJ: 'Giới từ (Conjunction)',
 		COND: 'cond',
-		PRT: 'particle',
-		PREP: 'preposition',
-		RP: 'Personal Pronoun',
+		PRT: 'Động Tính từ(Particle)',
+		PREP: 'Giới từ (Preposition)',
+		RP: 'Đại từ Nhân Xưng (Personal Pronoun)',
 		INJ: 'interjection',
 		ARAM: 'aramaic',
 		HEB: 'hebrew'
@@ -138,23 +138,23 @@ bible.morphology['robinson'] = {
 	},
 
 	nounCases: {
-		'N': 'nominative',
-		'V': 'vocative',
-		'G': 'genitive',
-		'D': 'dative',
-		'A': 'accusative',
+		'N': 'Danh-C (nominative)',
+		'V': 'Hô-C (vocative)',
+		'G': 'Thuộc-C (genitive)',
+		'D': 'Tặng-C (dative)',
+		'A': 'Đối-C-accusative',
 		'P': 'proper name'
 	},
 
 	wordNumber: {
-		'S': 'singular',
-		'P': 'plural'
+		'S': 'Số it (singular)',
+		'P': 'Số nhiều (plural)'
 	},
 
 	wordGender: {
-		'M': 'masculine',
-		'F': 'feminine',
-		'N': 'neuter'
+		'M': 'Đực (masculine)',
+		'F': 'Cái (feminine)',
+		'N': 'Trung (neuter)'
 	},
 
 	wordPerson: {
@@ -164,39 +164,39 @@ bible.morphology['robinson'] = {
 	},
 
 	verbTenses: {
-		'P': 'present',
-		'I': 'imperfect',
-		'F': 'future',
-		'2F': 'second future',
-		'A': 'aorist',
-		'2A': 'second aorist',
-		'R': 'perfect',
-		'2R': 'second perfect',
-		'L': 'pluperfect',
-		'2L': 'second pluperfect',
+		'P': 'Hiện tại-present',
+		'I': 'Tiếp diễn-imperfect',
+		'F': 'Tương lai-future',
+		'2F': 'Tương lai2-second future',
+		'A': 'Bất định-aorist',
+		'2A': 'Bất định2-second aorist',
+		'R': 'Hoàn thành-perfect',
+		'2R': 'Hoàn thành2-second perfect',
+		'L': 'QK Hoàn thành-pluperfect',
+		'2L': 'QK Hoàn thành2-second pluperfect',
 		'X': 'no tense stated'
 	},
 
 	verbVoices: {
-		'A': 'active',
-		'M': 'middle',
-		'P': 'passive',
-		'E': 'middle or passive',
-		'D': 'middle deponent',
-		'O': 'passive deponent',
+		'A': 'Chủ động-active',
+		'M': 'Tự động-middle',
+		'P': 'Bị động-passive',
+		'E': 'Tự/Bị động-middle or passive',
+		'D': 'Chủ động2-middle deponent',
+		'O': 'Chủ động3-passive deponent',
 		'N': 'middle or passive deponent',
 		'Q': 'impersonal active',
 		'X': 'no voice'
 	},
 
 	verbMoods: {
-		'I': 'indicative',
-		'S': 'subjunctive',
+		'I': 'Trình bày-indicative',
+		'S': 'Khẩn cầu-subjunctive',
 		'O': 'optative',
-		'M': 'imperative',
-		'N': 'infinitive',
-		'P': 'participle',
-		'R': 'imperative participle'
+		'M': 'Mệnh Lệnh-imperative',
+		'N': 'Nguyên thể-infinitive',
+		'P': 'Động tính từ-participle',
+		'R': 'Động tính từ Mệnh Lệnh-imperative participle'
 	},
 
 	particleTypes: {

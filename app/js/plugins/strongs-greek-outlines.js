@@ -2056,7 +2056,7 @@ var strongsGreekOutlines = {
 "G2045": "<ol><li> to search, examine into</li></ol>",
 "G2046": "<ol><li> to utter, speak, say</li></ol>",
 "G2047": "<ol><li> a solitude, an uninhabited region, a waste</li></ol>",
-"G2048": "<ol><li> solitary, lonely, desolate, uninhabited<ol><li> used of places<ol><li> a desert, wilderness</li><li> deserted places, lonely regions</li><li> an uncultivated region fit for pasturage</li></ol><li> used of persons<ol><li> deserted by others</li><li> deprived of the aid and protection of others, especially of friends, acquaintances, kindred</li><li> bereft<ol><li> of a flock deserted by the shepherd</li><li> of a woman neglected by her husband, from whom the husband withholds himself</li></ol></li></ol></li></ol></li></ol>",
+"G2048": "<ol><li> strong-greek-outlines.js, solitary, lonely, desolate, uninhabited<ol><li> used of places<ol><li> a desert, wilderness</li><li> deserted places, lonely regions</li><li> an uncultivated region fit for pasturage</li></ol><li> used of persons<ol><li> deserted by others</li><li> deprived of the aid and protection of others, especially of friends, acquaintances, kindred</li><li> bereft<ol><li> of a flock deserted by the shepherd</li><li> of a woman neglected by her husband, from whom the husband withholds himself</li></ol></li></ol></li></ol></li></ol>",
 "G2049": "<ol><li> to make desolate, lay waste</li><li> to ruin, bring to desolation</li><li> to despoil one, strip her of her treasures</li></ol>",
 "G2050": "<ol><li> a making desolate, desolation</li></ol>",
 "G2051": "<ol><li> to wrangle, engage in strife<ol><li> used to describe the calm temper of Jesus in contrast with the vehemence of the Jewish doctors wrangling together about tenets and practices</li></ol></li></ol>",
