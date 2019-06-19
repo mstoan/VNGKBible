@@ -227,10 +227,10 @@ var LemmaPopupPlugin = function(app) {
 				/* MSToan VN:  get from strongs-greek-VN-dictionary.js */
 				html += '<div class="lemma-outline"><b>VN: </b>' +dicVN[langPrefix + strongsNumber].kjv_def  + '</div>';
 				/* Strong VN: */
-				html += '<div class="lemma-outline"><b>Văn:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
+				//msToan Delete html += '<div class="lemma-outline"><b>Văn:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
 
 				/* Others:  get from strongs-greek-outlines.js */
-				html += '<div class="lemma-outline"><b>Others: </b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
+				//msToan Delete html += '<div class="lemma-outline"><b>Others: </b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
 
 				/* KJV and Strong KJV:  get from strongs-greek-dictionary.js */
 				html += '<div class="lemma-outline"><b>KJV:</b>' +dic[langPrefix + strongsNumber].kjv_def  + '</div>';
