@@ -4486,7 +4486,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G774":{"derivation":"from G773 (Ἀσιανός);","lemma":"Ἀσιανός","kjv_def":"of Asia","strongs_def":" an Asian (i.e. Asiatic) or an inhabitant of Asia"},
 "G1028":{"derivation":"from G1026 (βροχή);","lemma":"βροχή","kjv_def":"rain","strongs_def":" rain"},
 "G1653":{"derivation":"from G1656 (ἐλεέω);","lemma":"ἐλεέω","kjv_def":"have compassion (pity on), have (obtain, receive, shew) mercy (on)","strongs_def":" to compassionate (by word or deed, specially, by divine grace)"},
-"G3778":{"derivation":"from the article G3588 (αὕται) and G846 (αὕται);","lemma":"αὕται","kjv_def":"he (it was that), hereof, it, she, such as, the same, these, they, this (man, same, woman), which, who","strongs_def":" the he (she or it), i.e. this or that (often with article repeated)"},
+"G3778":{"derivation":"from the article G3588 (αὕται) and G846 (αὕται);","lemma":"οὗτος, αὕτη, τοῦτο","kjv_def":"he (it was that), hereof, it, she, such as, the same, these, they, this (man, same, woman), which, who","strongs_def":" the he (she or it), i.e. this or that (often with article repeated)"},
 "G3686":{"derivation":"from a presumed derivative of the base of G1097 (ὄνομα) (compare G3685 (ὄνομα));","lemma":"ὄνομα","kjv_def":"called, (+ sur-)name(-d)","strongs_def":" a \"name\" (literally or figuratively) (authority, character)"},
 "G2450":{"derivation":"from G2453 (Ἰουδαΐζω);","lemma":"Ἰουδαΐζω","kjv_def":"live as the Jews","strongs_def":" to become a Judæan, i.e. \"Judaize\""},
 "G1954":{"derivation":"from G1909 (ἐπίλοιπος) and G3062 (ἐπίλοιπος);","lemma":"ἐπίλοιπος","kjv_def":"rest","strongs_def":" left over, i.e. remaining"},
