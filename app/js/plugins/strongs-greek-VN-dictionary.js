@@ -24,8 +24,12 @@
  * address provided on the website:
  * 
  * http://ulrikp.org
- * msToan - Popup box (lemmapopup.js) in SBLGNT - VN:
  * Ulrik Petersen
+ *========================= MSTOAN =====================
+ * Duplicate definitions - G3456 five times, then the program will pick up the last definitions
+ * For VNI window - vnifull.xml finds G3456 in this file and Displays the information from this file
+ * For SBTGNT window - will find the key word using matching root words in strong-greek-dictionary.js
+ *
  */
 
 var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (μαρτύρομαι);","lemma":"μαρτύρομαι","kjv_def":"làm chứng","strongs_def":" to be adduced as a witness, i.e. (figuratively) to obtest (in affirmation or exhortation)"},
@@ -37,7 +41,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G2867":{"derivation":"from (dust;","lemma":"κονιάω","kjv_def":"whiten","strongs_def":" by analogy, lime); to whitewash"},
 "G1483":{"derivation":"adverb from G1482 (ἐθνικῶς);","lemma":"ἐθνικῶς","kjv_def":"after the manner of Gentiles","strongs_def":" as a Gentile"},
 "G498":{"derivation":"from G473 (ἀντιτάσσομαι) and the middle voice of G5021 (ἀντιτάσσομαι);","lemma":"ἀντιτάσσομαι","kjv_def":"oppose themselves, resist","strongs_def":" to range oneself against, i.e. oppose"},
-"G683":{"derivation":"from G575 (ἀπώθομαι) and the middle voice of or (to shove);","lemma":"ἀπώθομαι","kjv_def":"cast away, put away (from), thrust away (from)","strongs_def":" to push off, figuratively, to reject"},
+"G683":{"derivation":"from G575 (ἀπώθομαι) and the middle voice of or (to shove);","lemma":"ἀπώθομαι","kjv_def":"từ bỏ, dẹp đi, dẹp khỏi","strongs_def":" to push off, figuratively, to reject"},
 "G3321":{"derivation":"from a presumed compound of G3319 (μεσουράνημα) and G3772 (μεσουράνημα);","lemma":"μεσουράνημα","kjv_def":"midst of heaven","strongs_def":" mid-sky"},
 "G2228":{"derivation":"a primary particle of distinction between two connected terms;","lemma":"ἤ","kjv_def":"hay là","strongs_def":" disjunctive, or; comparative, than"},
 "G395":{"derivation":"from G393 (ἀνατολή);","lemma":"ἀνατολή","kjv_def":"dayspring, east, rising","strongs_def":" a rising of light, i.e. dawn (figuratively); by implication, the east (also in plural)"},
@@ -915,7 +919,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G5610":{"derivation":"apparently a primary word;","lemma":"ὥρα","kjv_def":"day, hour, instant, season, X short, (even-)tide, (high) time","strongs_def":" an \"hour\" (literally or figuratively)"},
 "G4287":{"derivation":"from G4253 (προθέσμιος) and a derivative of G5087 (προθέσμιος);","lemma":"προθέσμιος","kjv_def":"time appointed","strongs_def":" fixed beforehand, i.e. (feminine with G2250 (προθέσμιος) implied) a designated day"},
 "G4912":{"derivation":"from G4862 (συνέχω) and G2192 (συνέχω);","lemma":"συνέχω","kjv_def":"constrain, hold, keep in, press, lie sick of, stop, be in a strait, straiten, be taken with, throng","strongs_def":" to hold together, i.e. to compress (the ears, with a crowd or siege) or arrest (a prisoner); figuratively, to compel, perplex, afflict, preoccupy"},
-"G3748":{"derivation":"neuter of G3748 (ὅτι) as conjunction;","lemma":"ὅτι","kjv_def":"as concerning that, as though, because (that), for (that), how (that), (in) that, though, why","strongs_def":" demonstrative, that (sometimes redundant); causative, because"},
+"G3748":{"derivation":"neuter of G3748 (ὅτι) as conjunction;","lemma":"ὅτι","kjv_def":"những gì, những ai","strongs_def":" demonstrative, that (sometimes redundant); causative, because"},
 "G2973":{"derivation":"of Hebrew origin (compare H07081);","lemma":"Κωσάμ","kjv_def":"Cosam","strongs_def":" Cosam (i.e. Kosam) an Israelite"},
 "G2627":{"derivation":"from G2626 (κατακλυσμός);","lemma":"κατακλυσμός","kjv_def":"flood","strongs_def":" an inundation"},
 "G790":{"derivation":"from G1 (ἀστατέω) (as a negative particle) and a derivative of G2476 (ἀστατέω);","lemma":"ἀστατέω","kjv_def":"have no certain dwelling-place","strongs_def":" to be non-stationary, i.e. (figuratively) homeless"},
@@ -2433,7 +2437,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G5508":{"derivation":"of uncertain derivation;","lemma":"Χίος","kjv_def":"Chios","strongs_def":" Chios, an island in the Mediterranean"},
 "G1762":{"derivation":"contraction for the third person singular present indicative of G1751 (ἔνι);","lemma":"ἔνι","kjv_def":"be, (there) is","strongs_def":" impersonally, there is in or among"},
 "G946":{"derivation":"from G948 (βδέλυγμα);","lemma":"βδέλυγμα","kjv_def":"abomination","strongs_def":" a detestation, i.e. (specially) idolatry"},
-"G686":{"derivation":"probably from G142 (ἄρα) (through the idea of drawing a conclusion);","lemma":"ἄρα","kjv_def":"haply, (what) manner (of man), no doubt, perhaps, so be, then, therefore, truly, wherefore","strongs_def":" a particle denoting an inference more or less decisive (as follows)"},
+"G686":{"derivation":"probably from G142 (ἄρα) (through the idea of drawing a conclusion);","lemma":"ἄρα","kjv_def":" như vậy","strongs_def":" a particle denoting an inference more or less decisive (as follows)"},
 "G4256":{"derivation":"from G4253 (προαιτιάομαι) and a derivative of G156 (προαιτιάομαι);","lemma":"προαιτιάομαι","kjv_def":"prove before","strongs_def":" to accuse already, i.e. previously charge"},
 "G1287":{"derivation":"from G1223 (διασκορπίζω) and G4650 (διασκορπίζω);","lemma":"διασκορπίζω","kjv_def":"disperse, scatter (abroad), strew, waste","strongs_def":" to dissipate, i.e. (genitive case) to rout or separate; specially, to winnow; figuratively, to squander"},
 "G5490":{"derivation":"from a form of an obsolete primary (to \"gape\" or \"yawn\");","lemma":"χάσμα","kjv_def":"gulf","strongs_def":" a \"chasm\" or vacancy (impassable interval)"},
@@ -2912,7 +2916,6 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G2768":{"derivation":"from a primary (the hair of the head);","lemma":"κέρας","kjv_def":"horn","strongs_def":" a horn (literally or figuratively)"},
 "G1940":{"derivation":"from G1909 (ἐπικαθίζω) and G2523 (ἐπικαθίζω);","lemma":"ἐπικαθίζω","kjv_def":"set on","strongs_def":" to seat upon"},
 "G3942":{"derivation":"from a compound of G3844 (παροιμία) and perhaps a derivative of G3633 (παροιμία);","lemma":"παροιμία","kjv_def":"parable, proverb","strongs_def":" apparently a state alongside of supposition, i.e. (concretely) an adage; specially, an enigmatical or fictitious illustration"},
-"G3748":{"derivation":"from G3739 (ὅτι) and G5100 (ὅτι);","lemma":"ὅτι","kjv_def":"X and (they), (such) as, (they) that, in that they, what(-soever), whereas ye, (they) which, who(-soever)","strongs_def":" which some, i.e. any that; also (definite) which same"},
 "G239":{"derivation":"of Hebrew origin (imperative of H01984 and H03050);","lemma":"ἀλληλουϊα","kjv_def":"alleluiah","strongs_def":" praise ye Jah!, an adoring exclamation"},
 "G5522":{"derivation":"from the base of G5494 (χόος);","lemma":"χόος","kjv_def":"dust","strongs_def":" a heap (as poured out), i.e. rubbish; loose dirt"},
 "G2402":{"derivation":"a strengthened form of a primary idos (sweat);","lemma":"ἱδρώς","kjv_def":"sweat","strongs_def":" perspiration"},
@@ -3745,7 +3748,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G2453":{"derivation":"from G2448 (Ἰουδαῖος) (in the sense of G2455 (Ἰουδαῖος) as a country);","lemma":"Ἰουδαῖος","kjv_def":"Jew(-ess), of Judæa","strongs_def":" Judæan, i.e. belonging to Jehudah"},
 "G402":{"derivation":"from G303 (ἀναχωρέω) and G5562 (ἀναχωρέω);","lemma":"ἀναχωρέω","kjv_def":"depart, give place, go (turn) aside, withdraw self","strongs_def":" to retire"},
 "G2730":{"derivation":"from G2596 (κατοικέω) and G3611 (κατοικέω);","lemma":"κατοικέω","kjv_def":"dwell(-er), inhabitant(-ter)","strongs_def":" to house permanently, i.e. reside (literally or figuratively)"},
-"G575":{"derivation":"a primary particle;","lemma":"ἀπό","kjv_def":"(X here-)after, ago, at, because of, before, by (the space of), for(-th), from, in, (out) of, off, (up-)on(-ce), since, with","strongs_def":" \"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)"},
+"G575":{"derivation":"a primary particle;","lemma":"ἀπό","kjv_def":"từ bỏ, dẹp đi, dẹp khỏi","strongs_def":" \"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)"},
 "G2944":{"derivation":"from the same as G2945 (κυκλόω);","lemma":"κυκλόω","kjv_def":"compass (about), come (stand) round about","strongs_def":" to encircle, i.e. surround"},
 "G4485":{"derivation":"from G4486 (ῥῆγμα);","lemma":"ῥῆγμα","kjv_def":"ruin","strongs_def":" something torn, i.e. a fragment (by implication and abstractly, a fall)"},
 "G961":{"derivation":"from G960 (Βεροιαῖος);","lemma":"Βεροιαῖος","kjv_def":"of Berea","strongs_def":" a Berœoean or native of Berœa"},

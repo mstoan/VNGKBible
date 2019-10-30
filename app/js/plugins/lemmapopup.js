@@ -112,7 +112,7 @@ var LemmaPopupPlugin = function(app) {
 
 		}
 
-		// remove G3588 and H853 (the) when there is more than two
+		// remove G3588 (Greek) and H853 (Hebrew) (the) when there are more than two
 		if (strongs.length > 0) {
 			var articleIndex = -1;
 

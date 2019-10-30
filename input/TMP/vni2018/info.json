@@ -1,0 +1,16 @@
+{"langName": "Vietnamese",
+ "name": "Việt-Hy-lạp 2018",
+ "nameEnglish": "",
+ "abbr": "VNI",
+ "id": "vn_vni2018",
+ "lang": "vnm",
+ "langNameEnglish": "Vietnamese",
+ "generator": "osis",
+ "filename": "vnifull.xml",
+ "dir": "ltr",
+ "fcbh_drama_nt":"ENGESVN2DA",
+"fcbh_drama_ot":"ENGESVO2DA",
+"fcbh_audio_nt":"ENGKJVN1DA",
+"fcbh_audio_ot":"ENGKJVO1DA"
+
+ }

@@ -1,6 +1,5 @@
 {
 	"textIds": [
-		"comm_eng_tske",
 		"eng_asv",
 		"eng_kjv",
 		"eng_kjv2006",
@@ -14,17 +13,6 @@
 		"vn_vni2018"
 	],
 	"textInfoData": [
-		{
-			"id": "comm_eng_tske",
-			"name": "Treasury of Scripture Knowledge (Enhanced)",
-			"nameEnglish": "",
-			"abbr": "TSKe",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "commentary"
-		},
 		{
 			"id": "eng_asv",
 			"name": "American Standard Version",
