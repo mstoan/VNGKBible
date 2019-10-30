@@ -195,8 +195,8 @@ bible.morphology['robinson'] = {
 		'O': 'optative',
 		'M': 'Mệnh Lệnh-imperative',
 		'N': 'Nguyên thể-infinitive',
-		'P': 'Động tính từ-participle',
-		'R': 'Động tính từ Mệnh Lệnh-imperative participle'
+		'P': 'Phân từ-participle',
+		'R': 'Phân từ Mệnh Lệnh-imperative participle'
 	},
 
 	particleTypes: {
