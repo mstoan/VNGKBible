@@ -123,7 +123,7 @@ bible.morphology['robinson'] = {
 		ADV: 'Phó từ(Adverb)',
 		CONJ: 'Giới từ (Conjunction)',
 		COND: 'cond',
-		PRT: 'Động Tính từ(Participle)',
+		PRT: 'Phân từ(Participle)',
 		PREP: 'Giới từ (Preposition)',
 		RP: 'Đại từ Nhân Xưng (Personal Pronoun)',
 		INJ: 'interjection',
