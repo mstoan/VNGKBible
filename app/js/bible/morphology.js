@@ -19,12 +19,13 @@ bible.morphology['robinson'] = {
 			formattedParsing = '';
 
 		switch (partOfSpeechKey.toUpperCase()) {
-			case 'T':
-			case 'N':
-			case 'P': // Preposition
-			case 'R':
-			case 'C':
-			case 'D':
+//			case 'B': // Adverb - msToan changed from D
+//	case 'C': // Conjunction!
+			case 'D': // Article
+//	case 'T':
+			case 'N': // Noun!
+//			case 'P': // Preposition!
+			case 'RD': // Demonstrative Pronoun
 			case 'K':
 			case 'I':
 			case 'X':
@@ -37,8 +38,8 @@ bible.morphology['robinson'] = {
 				formattedParsing = c + ((n) ? ', ' + n + ((g) ? ', ' + g : '') : '');
 				break;
 
-			case 'RP':
-
+			case 'RP': // Personal Pronoun
+			case 'RR': // Relative Pronoun
 				var firstLetter = parsingInfo.substr(0,1);
 				if (firstLetter == '1' || firstLetter == '2') {
 
@@ -55,18 +56,17 @@ bible.morphology['robinson'] = {
 
 				break;
 
-			case 'A':
+			case 'J': // Adjective! (msToan Changed from A to J - 2019.10.30)
 				var c = this.nounCases[parsingInfo.substring(0, 1)];
 				var n = this.wordNumber[parsingInfo.substring(1, 2)];
 				formattedParsing =   c + ', ' + n;
 				break;
 
 			case 'PRT':
-
 				formattedParsing = this.particleTypes[parsingInfo];
 				break;
 
-			case 'V':
+			case 'V':  // Verb!
 				var t = '';
 				var rem = ''
 				if (parsingInfo.substring(0, 1) == '2') {
@@ -107,24 +107,25 @@ bible.morphology['robinson'] = {
 
 	partsOfSpeech: {
 		N: 'Danh-từ (Noun)',
-		A: 'Tính từ (Adjective)',
-		T: 'Mạo từ (Article)',
+		J: 'Tính từ (Adjective)', //msToan changed from A to J (2019.10.30)
+		T: 'Particle',
 		V: 'Động từ (Verb)',
 		P: 'Giới từ (Preposition)', //'personal pronoun',
-		RR: 'relative pronoun',
+		D: 'Mạo từ (Article)', //Article
+		RR: 'relative pronoun', //Relative Pronoun
 		C: 'Liên từ (Conjunction)', //'reciprocal pronoun',
-		D: 'Đại từ Chỉ Định (Demonstrative pronoun)',
+		RD: 'Đại từ Chỉ Định (Demonstrative pronoun)', //Demonstrative Pronoun
 		K: 'correlative pronoun',
 		I: 'interrogative pronoun',
 		X: 'indefinite pronoun',
 		Q: 'correlative or interrogative pronoun',
 		F: 'reflexive pronoun',
 		S: 'posessive pronoun',
-		ADV: 'Phó từ(Adverb)',
-		CONJ: 'Giới từ (Conjunction)',
+		B: 'Phó từ(Adverb)', // msToan changed from ADV
+//CONJ: 'Liên từ (Conjunction)',
 		COND: 'cond',
 		PRT: 'Phân từ(Participle)',
-		PREP: 'Giới từ (Preposition)',
+//PREP: 'Giới từ (Preposition)',
 		RP: 'Đại từ Nhân Xưng (Personal Pronoun)',
 		INJ: 'interjection',
 		ARAM: 'aramaic',
