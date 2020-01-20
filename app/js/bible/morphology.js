@@ -195,6 +195,7 @@ bible.morphology['robinson'] = {
 		'S': 'Khẩn cầu-subjunctive',
 		'O': 'optative',
 		'M': 'Mệnh Lệnh-imperative',
+		'D': 'Mệnh Lệnh-imperative', //msToan accommodate older code
 		'N': 'Nguyên thể-infinitive',
 		'P': 'Phân từ-participle',
 		'R': 'Phân từ Mệnh Lệnh-imperative participle'
