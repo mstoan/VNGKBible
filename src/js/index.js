@@ -14,8 +14,8 @@ textLoader.addProvider(new LocalTextProvider('content/texts/'));
 
 // Example: app with three windows
 const sofia = new SofiaApp();
-sofia.addWindow(TextController, {textid: 'local:eng_web', sectionid: 'John 2:5'});
-sofia.addWindow(TextController, {textid: 'local:eng_ylt', sectionid: 'Ex 10'});
+sofia.addWindow(TextController, {textid: 'local:vn_vni2018', sectionid: 'John 1:1'});
+sofia.addWindow(TextController, {textid: 'local:grc_sblgnt', sectionid: 'John 1:1'});
 
 // Example: highlight verses across windows
 sofia.addPlugin(VerseHighlighter);
