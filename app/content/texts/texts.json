@@ -1,73 +1,10 @@
 {
 	"textIds": [
-		"eng_asv",
-		"eng_kjv",
-		"eng_kjv2006",
-		"eng_web",
-		"eng_ylt",
 		"grc_lxx",
 		"grc_sblgnt",
-		"grc_wh",
-		"heb_wlc",
-		"vnm_wh",
 		"vn_vni2018"
 	],
 	"textInfoData": [
-		{
-			"id": "eng_asv",
-			"name": "American Standard Version",
-			"nameEnglish": "",
-			"abbr": "ASV",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "eng_kjv",
-			"name": "King James Version",
-			"nameEnglish": "",
-			"abbr": "KJV",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "eng_kjv2006",
-			"name": "King James Version (2006)",
-			"nameEnglish": "",
-			"abbr": "KJV",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "eng_web",
-			"name": "World English Bible",
-			"nameEnglish": "",
-			"abbr": "WEB",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "eng_ylt",
-			"name": "Young's Literal Translation",
-			"nameEnglish": "",
-			"abbr": "YLT",
-			"lang": "eng",
-			"langName": "English",
-			"langNameEnglish": "English",
-			"dir": "ltr",
-			"type": "bible"
-		},
 		{
 			"id": "grc_lxx",
 			"name": "Septuagint",
@@ -87,39 +24,6 @@
 			"lang": "grc",
 			"langName": "ελληνικά",
 			"langNameEnglish": "Greek",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "grc_wh",
-			"name": "Wescott & Hort",
-			"nameEnglish": "",
-			"abbr": "GWH",
-			"lang": "grc",
-			"langName": "ελληνικά",
-			"langNameEnglish": "Greek",
-			"dir": "ltr",
-			"type": "bible"
-		},
-		{
-			"id": "heb_wlc",
-			"name": "Westminster Leningrad Codex",
-			"nameEnglish": "Westminster Leningrad Codex",
-			"abbr": "WLC",
-			"lang": "heb",
-			"langName": "עִבְרִית",
-			"langNameEnglish": "Hebrew",
-			"dir": "rtl",
-			"type": "bible"
-		},
-		{
-			"id": "vnm_wh",
-			"name": "1934",
-			"nameEnglish": "",
-			"abbr": "VNM",
-			"lang": "vnm",
-			"langName": "Vietnamese",
-			"langNameEnglish": "Vietnamese",
 			"dir": "ltr",
 			"type": "bible"
 		},
