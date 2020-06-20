@@ -1,3 +1,6 @@
+/* 2020-06-11 
+msToan remove Search window
+*/
 sofia.config = {
 
 	// Change this to clear all user settings
@@ -9,9 +12,10 @@ sofia.config = {
 	// first load
 	windows: [
 		{type: 'bible', data: {textid: 'vn_vni2018', fragmentid: 'JN1_1'}},
-		{type: 'bible', data: {textid: 'grc_sblgnt', fragmentid: 'JN1_1'}},
-		{type: 'search', data: {textid: 'vn_vni2018', searchtext:'ban'}
-		}
+		{type: 'bible', data: {textid: 'grc_sblgnt', fragmentid: 'JN1_1'}}
+		//, msToan remove Search window
+		//{type: 'search', data: {textid: 'vn_vni2018', searchtext:'ban'}
+		//}
 	],
 
 	// URL to content

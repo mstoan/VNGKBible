@@ -145,7 +145,7 @@ var LemmaPopupPlugin = function(app) {
 		lemmaPopup.show();
 		lemmaPopup.position(l);
 
-		lemmaPopup.body.html('Loading...');
+		lemmaPopup.body.html('Loading/Xin chờ... app/js/plugins/lemmapopup.js');
 
 		if (strongs.length > 0) {
 
@@ -227,10 +227,12 @@ var LemmaPopupPlugin = function(app) {
 				/* MSToan VN:  get from strongs-greek-VN-dictionary.js */
 				html += '<div class="lemma-outline"><b>VN: </b>' +dicVN[langPrefix + strongsNumber].kjv_def  + '</div>';
 				/* Strong VN: */
-				//msToan Delete html += '<div class="lemma-outline"><b>Văn:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
+				//msToan Delete
+				html += '<div class="lemma-outline"><b>Văn:</b>' +dicVN[langPrefix + strongsNumber].strongs_def + '</div>';
 
 				/* Others:  get from strongs-greek-outlines.js */
-				//msToan Delete html += '<div class="lemma-outline"><b>Others: </b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
+				//msToan Delete
+				html += '<div class="lemma-outline"><b>Others: </b><br/>' + outline[langPrefix+strongsNumber] + '</div>';
 
 				/* KJV and Strong KJV:  get from strongs-greek-dictionary.js */
 				html += '<div class="lemma-outline"><b>KJV:</b>' +dic[langPrefix + strongsNumber].kjv_def  + '</div>';

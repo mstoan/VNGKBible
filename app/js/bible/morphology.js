@@ -62,7 +62,7 @@ bible.morphology['robinson'] = {
 				formattedParsing =   c + ', ' + n;
 				break;
 
-			case 'PRT':
+			case 'T': //msT 2020.06.15 - changed from PRT
 				formattedParsing = this.particleTypes[parsingInfo];
 				break;
 
