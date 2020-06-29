@@ -2,6 +2,8 @@
  * Bible reference parser
  *
  * @author John Dyer (http://j.hn/)
+ * msToan: BOOK_DATA - Array cuar số câu trong mỗi đoạn.
+ * VD: Genesis [Đoạn 1 có 31 câu, đoạn 2 có 25 câu, ...]
  */
 var bible = {};
 
