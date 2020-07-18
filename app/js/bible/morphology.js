@@ -24,7 +24,7 @@ bible.morphology['robinson'] = {
 			case 'D': // Article
 //	case 'T':
 			case 'N': // Noun!
-//			case 'P': // Preposition!
+//			case 'P': // Preposition! msToan
 			case 'RD': // Demonstrative Pronoun
 			case 'K':
 			case 'I':
@@ -39,6 +39,7 @@ bible.morphology['robinson'] = {
 				break;
 
 			case 'RP': // Personal Pronoun
+			case 'R': // Relative Pronoun msToan
 			case 'RR': // Relative Pronoun
 				var firstLetter = parsingInfo.substr(0,1);
 				if (firstLetter == '1' || firstLetter == '2') {
@@ -79,19 +80,28 @@ bible.morphology['robinson'] = {
 				var v = this.verbVoices[rem.substring(0, 1)];
 				var m = this.verbMoods[rem.substring(1, 2)];
 
-				if (rem.length == 2) {
+				rem = rem.length >= 5? rem.replace('-','') : rem; //2020-07-16 Khang - Remove excess dash in verb morphology
+				
+				if (rem.length == 2) // First, format Tense, Voice, and Mood
+				{
 					formattedParsing = t + ', ' + v + ', ' + m;
 
-				} else if (rem.length == 4) {
+				} else if (rem.length == 4) // Verbs after remove excess dash
+				{
 					var p = this.wordPerson[rem.substring(2, 3)];
 					var n = this.wordNumber[rem.substring(3, 4)];
 					formattedParsing =  t + ', ' + v + ', ' + m + ', ' + p + ', ' + n;
 				} 
-				else if (rem.length == 5) {
+				else if (rem.length >= 5) // Participle
+				{
 					var c = this.nounCases[rem.substring(2, 3)];
 					var n = this.wordNumber[rem.substring(3, 4)];
 					var g = this.wordGender[rem.substring(4, 5)];
-
+					if (rem.length >= 7) // Longer than participle by mistake (actually, it's a verb- Len=4)
+					{
+						c = this.wordPerson[rem.substring(2, 3)]; // c takes the place of p above for Verb with length of 4
+						g = "";
+					}
 					formattedParsing =  t + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
 				}
 				break;
@@ -99,8 +109,10 @@ bible.morphology['robinson'] = {
 				formattedParsing =  parsingInfo;
 
 		}
-// formattedParsing = 't=' + t + '| ' + 'v=' + v + '| ' + 'm=' + m + '| ' + 'Rem=' + rem.length + ':' + rem + '| ' + 'c=' + c + '| ' + 'p=' + p + '| ' + 'n=' + n + '| ' + 'g=' + g; + '= ' + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
-
+/* DEBUG STRING - msToan
+formattedParsing = 't=' + t + '| ' + 'v=' + v + '| ' + 'm=' + m + '| ' + 'Rem=' + rem.length + ':' + rem;
+formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4) + '||' + rem.substring(4, 5) + '----' + 'c=' + c + '| ' + 'p=' + p + '| ' + 'n=' + n + '| ' + 'g=' + g; + '= ' + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
+*/
 		return (typeof partOfSpeech != 'undefined' ? partOfSpeech + (formattedParsing != '' ? ': ' : '') : '') + formattedParsing;
 
 	},
@@ -112,7 +124,8 @@ bible.morphology['robinson'] = {
 		V: 'Động từ (Verb)',
 		P: 'Giới từ (Preposition)', //'personal pronoun',
 		D: 'Mạo từ (Article)', //Article
-		RR: 'relative pronoun', //Relative Pronoun
+		R: 'Đại từ Liên Hệ (relative pronoun)', //Also Relative Pronoun
+		RR: 'Đại từ Liên Hệ (relative pronoun)', //Relative Pronoun
 		C: 'Liên từ (Conjunction)', //'reciprocal pronoun',
 		RD: 'Đại từ Chỉ Định (Demonstrative pronoun)', //Demonstrative Pronoun
 		K: 'correlative pronoun',
