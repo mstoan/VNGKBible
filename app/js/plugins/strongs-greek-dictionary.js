@@ -2344,7 +2344,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G5023":{"derivation":"nominative or accusative case neuter plural of G3778 (ταῦτα);","lemma":"ταῦτα","kjv_def":"+ afterward, follow, + hereafter, X him, the same, so, such, that, then, these, they, this, those, thus","strongs_def":" these things"},
 "G67":{"derivation":"apparently from G66 (Ἀγρίππας) and G2462 (Ἀγρίππας);","lemma":"Ἀγρίππας","kjv_def":"Agrippa","strongs_def":" wild-horse tamer; Agrippas, one of the Herods"},
 "G3794":{"derivation":"from a remote derivative of G2192 (ὀχύρωμα) (meaning to fortify, through the idea of holding safely);","lemma":"ὀχύρωμα","kjv_def":"stronghold","strongs_def":" a castle (figuratively, argument)"},
-"G3588":{"derivation":"the definite article;","lemma":"τό","kjv_def":"the, this, that, one, he, she, it, etc","strongs_def":" the (sometimes to be supplied, at others omitted, in English idiom)"},
+"G3588":{"derivation":"the definite article;","lemma":"ὁ","kjv_def":" ἡ (F), τό(N)-the, this, that, one, he, she, it, etc","strongs_def":" the (sometimes to be supplied, at others omitted, in English idiom)"},
 "G5199":{"derivation":"from the base of G837 (ὑγιής);","lemma":"ὑγιής","kjv_def":"sound, whole","strongs_def":" healthy, i.e. well (in body); figuratively, true (in doctrine)"},
 "G1789":{"derivation":"from G1722 (ἐντρέφω) and G5142 (ἐντρέφω);","lemma":"ἐντρέφω","kjv_def":"nourish up in","strongs_def":" (figuratively) to educate"},
 "G2959":{"derivation":"feminine of G2962 (Κυρία);","lemma":"Κυρία","kjv_def":"lady","strongs_def":" Cyria, a Christian woman"},

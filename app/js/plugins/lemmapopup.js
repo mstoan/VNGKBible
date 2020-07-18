@@ -115,14 +115,14 @@ var LemmaPopupPlugin = function(app) {
 		// remove G3588 (Greek) and H853 (Hebrew) (the) when there are more than two
 		if (strongs.length > 0) {
 			var articleIndex = -1;
-
+/* msToan
 			for (var i=0; i<strongs.length; i++) {
 				if ((strongs[i] == 3588 && langPrefix == 'G') || (strongs[i] == 853 && langPrefix == 'H')) {
 					articleIndex = i;
 					break;
 				}
 			}
-
+*/
 			if (articleIndex > -1) {
 				strongs.splice(articleIndex, 1);
 
