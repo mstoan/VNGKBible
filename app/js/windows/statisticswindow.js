@@ -476,7 +476,7 @@ var StatisticsWindow = function(id, parent, data) {
 		$('.BibleWindow .highlight-stats').each(function(i, el) {
 
 			if (el.tagName.toLowerCase() == 'l') {
-				// for Lemma tags, jsut remove hte hlight
+				// for Lemma tags, just remove the hlight
 				el.className = el.className.replace(/highlight/gi, '');
 			} else {
 				// if it's just <span class="highlight">, replace it with text
