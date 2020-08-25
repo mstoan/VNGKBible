@@ -53,7 +53,7 @@ sofia.resources['en'] = {
 
 			},
 			"lemmapopup": {
-				"findalloccurrences": "Find all occurrences (approximately __count__)"
+				"findalloccurrences": "Xuất hiện khoản __count__ lần" //MSToan
 			}
 		},
 		"windows": {

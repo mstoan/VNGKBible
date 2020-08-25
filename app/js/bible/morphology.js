@@ -118,28 +118,28 @@ formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4)
 	},
 
 	partsOfSpeech: {
-		N: 'Danh-từ (Noun)',
-		J: 'Tính từ (Adjective)', //msToan changed from A to J (2019.10.30)
+		N: 'Danh-từ (N)',
+		J: 'Tính từ (Adj)', //msToan changed from A to J (2019.10.30)
 		T: 'Particle',
-		V: 'Động từ (Verb)',
-		P: 'Giới từ (Preposition)', //'personal pronoun',
-		D: 'Mạo từ (Article)', //Article
+		V: 'Động từ (V)',
+		P: 'Giới từ (Prep)', //'personal pronoun',
+		D: 'Mạo từ (Art)', //Article
 		R: 'Đại từ Liên Hệ (relative pronoun)', //Also Relative Pronoun
 		RR: 'Đại từ Liên Hệ (relative pronoun)', //Relative Pronoun
-		C: 'Liên từ (Conjunction)', //'reciprocal pronoun',
-		RD: 'Đại từ Chỉ Định (Demonstrative pronoun)', //Demonstrative Pronoun
+		C: 'Liên từ (Conj)', //'reciprocal pronoun',
+		RD: 'Đại từ Chỉ Định (DPro)', //Demonstrative Pronoun
 		K: 'correlative pronoun',
 		I: 'interrogative pronoun',
 		X: 'indefinite pronoun',
 		Q: 'correlative or interrogative pronoun',
 		F: 'reflexive pronoun',
 		S: 'posessive pronoun',
-		B: 'Phó từ(Adverb)', // msToan changed from ADV
+		B: 'Phó từ(Adv)', // msToan changed from ADV
 //CONJ: 'Liên từ (Conjunction)',
 		COND: 'cond',
 		PRT: 'Phân từ(Participle)',
 //PREP: 'Giới từ (Preposition)',
-		RP: 'Đại từ Nhân Xưng (Personal Pronoun)',
+		RP: 'Đại từ Nhân Xưng (PPro)',
 		INJ: 'interjection',
 		ARAM: 'aramaic',
 		HEB: 'hebrew'
@@ -152,23 +152,23 @@ formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4)
 	},
 
 	nounCases: {
-		'N': 'Danh-C (nominative)',
-		'V': 'Hô-C (vocative)',
-		'G': 'Thuộc-C (genitive)',
-		'D': 'Tặng-C (dative)',
-		'A': 'Đối-C-accusative',
-		'P': 'proper name'
+		'N': 'Danh-C (N)',
+		'V': 'Hô-C (V)',
+		'G': 'Thuộc-C (G)',
+		'D': 'Tặng-C (D)',
+		'A': 'Đối-C (A)',
+		'P': 'Tên (PN)'
 	},
 
 	wordNumber: {
-		'S': 'Số it (singular)',
-		'P': 'Số nhiều (plural)'
+		'S': 'Số ít (S)',
+		'P': 'Số nhiều (P)'
 	},
 
 	wordGender: {
-		'M': 'Đực (masculine)',
-		'F': 'Cái (feminine)',
-		'N': 'Trung (neuter)'
+		'M': 'Đực (M)',
+		'F': 'Cái (F)',
+		'N': 'Trung (N)'
 	},
 
 	wordPerson: {
@@ -178,50 +178,48 @@ formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4)
 	},
 
 	verbTenses: {
-		'P': 'Hiện tại-present',
-		'I': 'Tiếp diễn-imperfect',
-		'F': 'Tương lai-future',
-		'2F': 'Tương lai2-second future',
-		'A': 'Bất định-aorist',
-		'2A': 'Bất định2-second aorist',
-		'R': 'Hoàn thành-perfect',
-		'2R': 'Hoàn thành2-second perfect',
+		'P': 'Hiện tại (P)',
+		'I': 'Tiếp diễn (I)',
+		'F': 'Tương lai (F)',
+		'2F': 'Tương lai2 (F2)',
+		'A': 'Bất định (A)',
+		'2A': 'Bất định2 (A2)',
+		'R': 'Hoàn thành (R)',
+		'2R': 'Hoàn thành2 (R2)',
 		'L': 'QK Hoàn thành-pluperfect',
 		'2L': 'QK Hoàn thành2-second pluperfect',
 		'X': 'no tense stated'
 	},
 
 	verbVoices: {
-		'A': 'Chủ động-active',
-		'M': 'Tự động-middle',
-		'P': 'Bị động-passive',
-		'E': 'Tự/Bị động-middle or passive',
-		'D': 'Chủ động2-middle deponent',
-		'O': 'Chủ động3-passive deponent',
+		'A': 'Chủ động-(A)',
+		'M': 'Tự động-(M)',
+		'P': 'Bị động-(P)',
+		'E': 'Tự/Bị động-(M/P)',
+		'D': 'Chủ động2-(Dep)',
+		'O': 'Chủ động3-(PDep)',
 		'N': 'middle or passive deponent',
 		'Q': 'impersonal active',
-		'X': 'no voice'
+		'X': 'Chủ động-(A)' //msToan chged to Active (2020-08-06) 'no voice'
 	},
 
 	verbMoods: {
-		'I': 'Trình bày-indicative',
-		'S': 'Khẩn cầu-subjunctive',
-		'O': 'optative',
-		'M': 'Mệnh Lệnh-imperative',
-		'D': 'Mệnh Lệnh-imperative', //msToan accommodate older code
-		'N': 'Nguyên thể-infinitive',
-		'P': 'Phân từ-participle',
-		'R': 'Phân từ Mệnh Lệnh-imperative participle'
+		'I': 'Trình bày-(I)',
+		'S': 'Khẩn cầu-(S)',
+		'O': 'Lối Mong Mỏi-(O)',
+		'M': 'Mệnh Lệnh-(M)',
+		'D': 'Mệnh Lệnh-(M)', //msToan accommodate older code
+		'N': 'Nguyên thể-(I)',
+		'P': 'Phân từ-(P)',
+		'R': 'Phân từ Mệnh Lệnh-(PM)'
 	},
 
 	particleTypes: {
-		'I': 'interogative',
-		'N': 'negative'
+		'I': 'Từ Nghi vấn-(I)',
+		'N': 'Từ Phủ định-(N)'
 	}
 };
 bible.morphology['Greek'] = bible.morphology['robinson'];
-
-
 
 // http://openscriptures.github.io/morphhb/parsing/HebrewMorphologyCodes.html
 bible.morphology['OSHB'] = {
@@ -308,11 +306,9 @@ bible.morphology['OSHB'] = {
 		'S':'suffix',
 		'T':'particle',
 		'V':'verb'
-
 	},
 
 	hebrewVerbStems: {
-
 		'q': 'qal',
 		'N': 'niphal',
 		'p': 'piel',
