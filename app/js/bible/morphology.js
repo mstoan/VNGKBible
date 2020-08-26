@@ -107,7 +107,6 @@ bible.morphology['robinson'] = {
 				break;
 			default:
 				formattedParsing =  parsingInfo;
-
 		}
 /* DEBUG STRING - msToan
 formattedParsing = 't=' + t + '| ' + 'v=' + v + '| ' + 'm=' + m + '| ' + 'Rem=' + rem.length + ':' + rem;
