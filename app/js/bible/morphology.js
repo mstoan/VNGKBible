@@ -208,7 +208,7 @@ formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4)
 		'O': 'Lối Mong Mỏi-(O)',
 		'M': 'Mệnh Lệnh-(M)',
 		'D': 'Mệnh Lệnh-(M)', //msToan accommodate older code
-		'N': 'Nguyên thể-(I)',
+		'N': 'Vô định-(Inf.)',
 		'P': 'Phân từ-(P)',
 		'R': 'Phân từ Mệnh Lệnh-(PM)'
 	},

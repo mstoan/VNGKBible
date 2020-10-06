@@ -53,7 +53,7 @@ sofia.resources['en'] = {
 
 			},
 			"lemmapopup": {
-				"findalloccurrences": "Xuất hiện khoản __count__ lần" //MSToan
+				"findalloccurrences": "Xuất hiện khoảng __count__ lần" //MSToan
 			}
 		},
 		"windows": {
