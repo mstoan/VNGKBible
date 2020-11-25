@@ -43,11 +43,21 @@ var LemmaMatchPlugin = function(app) {
 				}
 
 
-				if (verseid) {
-					$('.' + verseid ).find('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
-				} else {
-					$('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
-
+				if (strong == '3588')
+				{
+					if (verseid) {
+						$('.' + verseid ).find('l[s="' + strong + '"],l[s="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+					} else {
+						$('l[s="' + strong + '"],l[s="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+					}
+				}
+				else 
+				{
+					if (verseid) {
+						$('.' + verseid ).find('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+					} else {
+						$('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+					}
 				}
 
 			}
