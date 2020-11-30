@@ -54,9 +54,9 @@ var LemmaMatchPlugin = function(app) {
 				else 
 				{
 					if (verseid) {
-						$('.' + verseid ).find('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+						$('.' + verseid ).find('l[s~="' + strong + '"],l[s~="' + langPrefix + strong + '"]').addClass('lemma-highlight');
 					} else {
-						$('l[s*="' + strong + '"],l[s*="' + langPrefix + strong + '"]').addClass('lemma-highlight');
+						$('l[s~="' + strong + '"],l[s~="' + langPrefix + strong + '"]').addClass('lemma-highlight');
 					}
 				}
 
