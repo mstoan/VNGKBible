@@ -204,7 +204,7 @@ formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4)
 
 	verbMoods: {
 		'I': 'Trình bày-(I)',
-		'S': 'Khẩn cầu-(S)',
+		'S': 'Giả Định-(S)',
 		'O': 'Lối Mong Mỏi-(O)',
 		'M': 'Mệnh Lệnh-(M)',
 		'D': 'Mệnh Lệnh-(M)', //msToan accommodate older code
