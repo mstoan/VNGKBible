@@ -2951,7 +2951,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G3647":{"derivation":"from G3648 (ὁλοκληρία);","lemma":"ὁλοκληρία","kjv_def":"perfect soundness","strongs_def":" integrity, i.e. physical wholeness"},
 "G4913":{"derivation":"middle voice from G4862 (συνήδομαι) and the base of G2237 (συνήδομαι);","lemma":"συνήδομαι","kjv_def":"delight","strongs_def":" to rejoice in with oneself, i.e. feel satisfaction concerning"},
 "G1952":{"derivation":"from G1909 (ἐπιλείπω) and G3007 (ἐπιλείπω);","lemma":"ἐπιλείπω","kjv_def":"fail","strongs_def":" to leave upon, i.e. (figuratively) to be insufficient for"},
-"G2928":{"derivation":"a primary verb;","lemma":"κρύπτω","kjv_def":"hide (self), keep secret, secret(-ly)","strongs_def":" to conceal (properly, by covering)"},
+"G2928":{"derivation":"a primary verb;","lemma":"κρύπτω","kjv_def":"dấu, chôn dấu, bí mật","strongs_def":" to conceal (properly, by covering)"},
 "G135":{"derivation":"from a derivative of G136 (αἴνιγμα) (in its primary sense);","lemma":"αἴνιγμα","kjv_def":"X darkly","strongs_def":" an obscure saying (\"enigma\"), i.e. (abstractly) obscureness"},
 "G656":{"derivation":"from G575 (ἀποσυνάγωγος) and G4864 (ἀποσυνάγωγος);","lemma":"ἀποσυνάγωγος","kjv_def":"(put) out of the synagogue(-s)","strongs_def":" excommunicated"},
 "G60":{"derivation":"from G58 (ἀγοραῖος);","lemma":"ἀγοραῖος","kjv_def":"baser sort, low","strongs_def":" relating to the market-place, i.e. forensic (times); by implication, vulgar"},
