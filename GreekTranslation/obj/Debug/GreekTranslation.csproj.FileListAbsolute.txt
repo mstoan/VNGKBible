@@ -1,0 +1,9 @@
+D:\Docs\Gith\GreekTranslation\bin\Debug\GreekTranslation.exe.config
+D:\Docs\Gith\GreekTranslation\bin\Debug\GreekTranslation.exe
+D:\Docs\Gith\GreekTranslation\bin\Debug\GreekTranslation.pdb
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.csprojAssemblyReference.cache
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.FormMain.resources
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.Properties.Resources.resources
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.csproj.GenerateResource.cache
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.exe
+D:\Docs\Gith\GreekTranslation\obj\Debug\GreekTranslation.pdb
