@@ -3178,7 +3178,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G254":{"derivation":"of uncertain derivation;","lemma":"ἅλυσις","kjv_def":"bonds, chain","strongs_def":" a fetter or manacle"},
 "G833":{"derivation":"from the same as G109 (αὐλή);","lemma":"αὐλή","kjv_def":"court, (sheep-)fold, hall, palace","strongs_def":" a yard (as open to the wind); by implication, a mansion"},
 "G1549":{"derivation":"neuter of a derivative of a compound of G1537 (ἔκγονον) and G1096 (ἔκγονον);","lemma":"ἔκγονον","kjv_def":"nephew","strongs_def":" a descendant, i.e. (specially) grandchild"},
-"G5483":{"derivation":"middle voice from G5485 (χαρίζομαι);","lemma":"χαρίζομαι","kjv_def":"deliver, (frankly) forgive, (freely) give, grant","strongs_def":" to grant as a favor, i.e. gratuitously, in kindness, pardon or rescue"},
+"G5483":{"derivation":"middle voice from G5485 (χαρίζομαι);","lemma":"χαρίζομαι","kjv_def":"ban, gia ơn, tha thả","strongs_def":" to grant as a favor, i.e. gratuitously, in kindness, pardon or rescue"},
 "G4849":{"derivation":"neuter of a derivative of the alternate of G4844 (συμπόσιον);","lemma":"συμπόσιον","kjv_def":"company","strongs_def":" a drinking-party (\"symposium\"), i.e. (by extension) a room of guests"},
 "G3199":{"derivation":"a primary verb;","lemma":"μέλω","kjv_def":"(take) care","strongs_def":" to be of interest to, i.e. to concern (only third person singular present indicative used impersonally, it matters)"},
 "G3081":{"derivation":"third person singular present indicative active of a derivative of a compound of G3080 (λυσιτελεῖ) and G5056 (λυσιτελεῖ);","lemma":"λυσιτελεῖ","kjv_def":"it is better","strongs_def":" impersonally, it answers the purpose, i.e. is advantageous"},
