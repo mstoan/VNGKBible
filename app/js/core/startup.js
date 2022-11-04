@@ -94,6 +94,9 @@ function login() {
 	var username = $('#username').val();
 	var password = $('#password').val();
 
+//	$('#login').hide(); //MST-Temporary bypass Login validation
+//	startup(); //MST-Temporary bypass
+// Start
 	if (userCredential[username] == password){
 		$('#login').hide();
 		startup();
@@ -102,8 +105,8 @@ function login() {
 		$('#username').val("");
 		$('#password').val("");
 		$('#errorMsg').text("Username/Password incorrect, please try again.");
-		
 	}
+// Stop
 }
 
 function clearMsg() {
