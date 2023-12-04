@@ -1,4 +1,4 @@
-
+// Login Information Here
 const userCredential = {
 	admin: 'bibleadmin',
 	user1: 'bibleuser1-123',
@@ -94,8 +94,8 @@ function login() {
 	var username = $('#username').val();
 	var password = $('#password').val();
 
-//	$('#login').hide(); //MST-Temporary bypass Login validation
-//	startup(); //MST-Temporary bypass
+	$('#login').hide(); //MST-Temporary bypass Login validation
+	startup(); //MST-Temporary bypass
 // Start
 	if (userCredential[username] == password){
 		$('#login').hide();
