@@ -53,6 +53,8 @@ function startup() {
 
 	} else {
 		init();
+		startup(); //Bypass Login and go straight to bibleapp
+
 	}
 
 	function init() {
