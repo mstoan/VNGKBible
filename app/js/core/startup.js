@@ -89,7 +89,7 @@ function startup() {
 		$('.i18n').i18n();
 	}
 };
-
+// LOGIN FUNCTION HERE
 function login() {
 	var username = $('#username').val();
 	var password = $('#password').val();
@@ -114,7 +114,8 @@ function clearMsg() {
 }
 
 $(document).on('keypress',function(e) {
-    if(e.which == 13) {
+  startup(); //MST-Temporary bypass
+   if(e.which == 13) {
         login();
     }
 });
