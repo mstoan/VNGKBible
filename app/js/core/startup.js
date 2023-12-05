@@ -6,7 +6,7 @@ const userCredential = {
 }
 function startup() {
 	// hide initial text area
-	$('#startup').hide();
+	/*$('#startup').hide();
 
 	// test for local file support
 	if (window.location.protocol === 'file:') {
@@ -51,7 +51,9 @@ function startup() {
 
 	} else {
 		init();
-	}
+	}*/
+
+	init();
 
 	function init() {
 		// load config
