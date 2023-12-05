@@ -1,5 +1,12 @@
-// msT function startup() {
-$(function() {
+// Login Information Here
+/* Remove login
+const userCredential = {
+	admin: 'bibleadmin',
+	user1: 'bibleuser1-123',
+	user2: 'bibleuser2-123'
+}
+*/
+function startup() {
 	// hide initial text area
 	$('#startup').hide();
 
@@ -83,4 +90,36 @@ $(function() {
 
 		$('.i18n').i18n();
 	}
+};
+/* Remove Login
+function login() {
+	var username = $('#username').val();
+	var password = $('#password').val();
+
+	$('#login').hide(); //MST-Temporary bypass Login validation
+	startup(); //MST-Temporary bypass
+// Start
+	if (userCredential[username] == password){
+		$('#login').hide();
+		startup();
+	}
+	else {
+		$('#username').val("");
+		$('#password').val("");
+		$('#errorMsg').text("Username/Password incorrect, please try again.");
+	}
+// Stop
+}
+
+function clearMsg() {
+	$('#errorMsg').text("");
+}
+*/
+$(document).on('keypress',function(e) {
+  startup(); //MST-Temporary bypass
+/*
+   if(e.which == 13) {
+        login();
+    }
+*/
 });
