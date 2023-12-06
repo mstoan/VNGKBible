@@ -114,7 +114,7 @@ function clearMsg() {
 }
 
 $(document).on('keypress',function(e) {
-   startup(); //MST-Temporary bypass
+//   startup(); //MST-Temporary bypass
    if(e.which == 13) {
         login();
     }
