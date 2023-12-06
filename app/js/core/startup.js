@@ -1,6 +1,3 @@
-$(function() {
-	$('.i18n').i18n();
-});
 
 // Login Information Here
 // const userCredential = {
@@ -8,91 +5,92 @@ $(function() {
 // 	user1: 'bibleuser1-123',
 // 	user2: 'bibleuser2-123'
 // }
-// function startup() {
-// 	// hide initial text area
-// 	$('#startup').hide();
 
-// 	// test for local file support
-// 	if (window.location.protocol === 'file:') {
+$(function startup() {
+	// hide initial text area
+	$('#startup').hide();
 
-// 		$.ajax({
-// 			dataType: 'text',
+	// test for local file support
+	if (window.location.protocol === 'file:') {
 
-// 			url: 'about.html',
-// 			success: function() {
-// 				init();
-// 			},
-// 			error: function(e) {
-// 				var modal = new MovableWindow( Math.min(500, $(window).width()) ,250, 'Local Files Error'),
-// 					errorMessage = '',
-// 					ua = navigator.userAgent.toLowerCase();
-// 				//modal.size(500, 200).center();
+		$.ajax({
+			dataType: 'text',
 
-// 				if (ua.indexOf('chrome') > -1) {
-// 					if (ua.indexOf('mac os') > -1) {
-// 						errorMessage =
-// 							'<p>Mac, Terminal</p>' +
-// 							'<code>/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-file-access-from-files</code>';
-// 					} else
-// 					if (ua.indexOf('windows') > -1) {
-// 						errorMessage =
-// 							'<p>Mac, Terminal</p>' +
-// 							'<code>/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-file-access-from-files</code>';
-// 					}
-// 				} else {
-// 					errorMessage =
-// 						'<p>Unknown error loading files (cannot load about.html)' + e + '</p>';
-// 				}
+			url: 'about.html',
+			success: function() {
+				init();
+			},
+			error: function(e) {
+				var modal = new MovableWindow( Math.min(500, $(window).width()) ,250, 'Local Files Error'),
+					errorMessage = '',
+					ua = navigator.userAgent.toLowerCase();
+				//modal.size(500, 200).center();
 
-// 				modal.body.css({background: '#000', color: '#fff' }).html(
-// 					'<div style="padding: 20px;">' +
-// 						errorMessage +
-// 					'</div>'
-// 				);
-// 				modal.show().center();
-// 			}
-// 		});
+				if (ua.indexOf('chrome') > -1) {
+					if (ua.indexOf('mac os') > -1) {
+						errorMessage =
+							'<p>Mac, Terminal</p>' +
+							'<code>/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-file-access-from-files</code>';
+					} else
+					if (ua.indexOf('windows') > -1) {
+						errorMessage =
+							'<p>Mac, Terminal</p>' +
+							'<code>/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-file-access-from-files</code>';
+					}
+				} else {
+					errorMessage =
+						'<p>Unknown error loading files (cannot load about.html)' + e + '</p>';
+				}
 
-// 	} else {
-// 		init();
-// 	}
+				modal.body.css({background: '#000', color: '#fff' }).html(
+					'<div style="padding: 20px;">' +
+						errorMessage +
+					'</div>'
+				);
+				modal.show().center();
+			}
+		});
 
-// 	function init() {
-// 		// load config
-// 		var params = stringUtility.parseQuerystring(),
-// 			custom = params["custom"];
+	} else {
+		init();
+	}
 
-// 		if (typeof custom != 'undefined' && custom != '') {
-// 			var customizations = sofia.customConfigs[custom];
+	function init() {
+		// load config
+		var params = stringUtility.parseQuerystring(),
+			custom = params["custom"];
 
-// 			if (typeof customizations != 'undefined' && customizations != null) {
-// 				sofia.config = $.extend(sofia.config, customizations);
-// 			}
-// 		}
+		if (typeof custom != 'undefined' && custom != '') {
+			var customizations = sofia.customConfigs[custom];
 
-// 		// load css
-// 		if (typeof sofia.config.customCssUrl != 'undefined' && sofia.config.customCssUrl != '') {
-// 			$('<link href="' + sofia.config.customCssUrl + '" rel="stylesheet" />').appendTo( $('head') );
-// 		}
+			if (typeof customizations != 'undefined' && customizations != null) {
+				sofia.config = $.extend(sofia.config, customizations);
+			}
+		}
 
-// 		var isiOSApp = (navigator.userAgent.toLowerCase().indexOf('ipad') > -1 || navigator.userAgent.toLowerCase().indexOf('iphone') > -1) && window.location.protocol === 'file:';
+		// load css
+		if (typeof sofia.config.customCssUrl != 'undefined' && sofia.config.customCssUrl != '') {
+			$('<link href="' + sofia.config.customCssUrl + '" rel="stylesheet" />').appendTo( $('head') );
+		}
 
-// 		if (window.navigator.standalone === true || isiOSApp) {
-// 			$('body').addClass('app-mobile-fullscreen');
-// 		}
+		var isiOSApp = (navigator.userAgent.toLowerCase().indexOf('ipad') > -1 || navigator.userAgent.toLowerCase().indexOf('iphone') > -1) && window.location.protocol === 'file:';
 
-// 		// run inits
-// 		for (var i=0, il=sofia.initMethods.length; i<il; i++) {
-// 			sofia.initMethods[i]();
-// 		}
+		if (window.navigator.standalone === true || isiOSApp) {
+			$('body').addClass('app-mobile-fullscreen');
+		}
 
-// 		// create app
-// 		sofia.app = new App();
-// 		sofia.app.init();
+		// run inits
+		for (var i=0, il=sofia.initMethods.length; i<il; i++) {
+			sofia.initMethods[i]();
+		}
 
-// 		$('.i18n').i18n();
-// 	}
-// };
+		// create app
+		sofia.app = new App();
+		sofia.app.init();
+
+		$('.i18n').i18n();
+	}
+});
 
 // function login() {
 // 	var username = $('#username').val();
