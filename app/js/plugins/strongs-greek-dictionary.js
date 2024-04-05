@@ -3114,7 +3114,7 @@ var strongsGreekDictionary = {"G3143":{"derivation":"middle voice from G3144 (μ
 "G1247":{"derivation":"from G1249 (διακονέω);","lemma":"διακονέω","kjv_def":"(ad-)minister (unto), serve, use the office of a deacon","strongs_def":" to be an attendant, i.e. wait upon (menially or as a host, friend, or (figuratively) teacher); technically, to act as a Christian deacon"},
 "G1894":{"derivation":"from G1893 (ἐπειδή) and G1211 (ἐπειδή);","lemma":"ἐπειδή","kjv_def":"after that, because, for (that, -asmuch as), seeing, since","strongs_def":" since now, i.e. (of time) when, or (of cause) whereas"},
 "G2262":{"derivation":"of Hebrew origin (H06147);","lemma":"Ἤρ","kjv_def":"Er","strongs_def":" Er, an Israelite"},
-"G3062":{"derivation":"masculine plural of a derivative of G3007 (λοιποί);","lemma":"λοιποί","kjv_def":"other, which remain, remnant, residue, rest","strongs_def":" remaining ones"},
+"G3062":{"derivation":"masculine plural of a derivative of G3007 (λοιποί);","lemma":"λοιπός","kjv_def":"other, which remain, remnant, residue, rest","strongs_def":" remaining ones"},
 "G182":{"derivation":"from G1 (ἀκατάστατος) (as a negative particle) and a derivative of G2525 (ἀκατάστατος);","lemma":"ἀκατάστατος","kjv_def":"unstable","strongs_def":" inconstant"},
 "G2099":{"derivation":"from G2097 (εὐαγγελιστής);","lemma":"εὐαγγελιστής","kjv_def":"evangelist","strongs_def":" a preacher of the gospel"},
 "G214":{"derivation":"from ( a shout, \"halloo\");","lemma":"ἀλαλάζω","kjv_def":"tinkle, wail","strongs_def":" to vociferate, i.e. (by implication) to wail; figuratively, to clang"},
