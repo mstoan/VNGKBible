@@ -536,7 +536,7 @@
           <w lemma="b">ב֤/וֹ</w>
           <w lemma="7673 a" n="0.1.0">שָׁבַת֙</w>
           <w lemma="m/3605">מִ/כָּל</w><seg type="x-maqqef">־</seg><w lemma="4399" n="0.1">מְלַאכְתּ֔/וֹ</w>
-          <w lemma="834 a">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="1254 a">בָּרָ֥א</w>
+          <w lemma="834 a">אֲשֶׁר</w><seg type="x-maqqef">־</seg><w lemma="1254 a" morph="HVqp3ms">בָּרָ֣א</w>
           <w lemma="430" n="0.0">אֱלֹהִ֖ים</w>
           <w lemma="l/6213 a" n="0">לַ/עֲשֽׂוֹת</w><seg type="x-sof-pasuq">׃</seg>
           <seg type="x-pe">פ</seg>
