@@ -98,7 +98,7 @@
         <verse osisID="Gen.1.4">
           <w lemma="c/7200">וַ/יַּ֧רְא</w>
           <w lemma="430" n="1.0.0">אֱלֹהִ֛ים</w>
-          <w lemma="853">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/216" n="1.0">הָ/א֖וֹר</w>
+          <w lemma="853" morph="HTo">אֶת</w><seg type="x-maqqef">־</seg><w lemma="d/216" n="1.0">הָ/א֖וֹר</w>
           <w lemma="3588 a">כִּי</w><seg type="x-maqqef">־</seg><w lemma="2896 a" n="1" morph="HNcmsa">ט֑וֹב</w>
           <w lemma="c/914">וַ/יַּבְדֵּ֣ל</w>
           <w lemma="430" n="0.1">אֱלֹהִ֔ים</w>

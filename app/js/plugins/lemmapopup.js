@@ -212,9 +212,6 @@ var LemmaPopupPlugin = function(app) {
 								' ' +
 								'<span class="lemma-strongs" dir="ltr"> (' + strongsNumber + ')</span>' +
 							'</div>';
-
-
-
 				if (morphKey != '') {
 					html += '<span class="lemma-morphology">' + bible.morphology[morphType].format( morphKey ) + '</span>';
 				}

@@ -1,4 +1,4 @@
-/* language tools */
+/* language tools - Word Parsing */
 if (typeof(window.bible) == 'undefined')
 	window.bible = {};
 
@@ -423,7 +423,7 @@ bible.morphology['OSHB'] = {
 		'j': 'interjection',
 		'm': 'demonstrative',
 		'n': 'negative',
-		'o': 'direct object marker',
+		'o': 'Từ báo đối trượng-direct object marker',
 		'r': 'relative'
 	},
 

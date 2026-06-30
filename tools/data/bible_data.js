@@ -1,4 +1,4 @@
-var BOOK_DATA = [
+var BOOK_DATA = [ //Số đoạn và câu
 	{
 		"name": "Front matter",
 		"sortOrder": 0,
