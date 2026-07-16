@@ -114,7 +114,7 @@
           <w lemma="l/216" n="1.1.0">לָ/אוֹר֙</w>
           <w lemma="3117" n="1.1">י֔וֹם</w>
           <w lemma="c/l/2822" n="1.0">וְ/לַ/חֹ֖שֶׁךְ</w>
-          <w lemma="7121">קָ֣רָא</w>
+          <w lemma="7121" morph="HVqp3ms">קָ֣רָא</w>
           <w lemma="3915" n="1">לָ֑יְלָה</w>
           <w lemma="c/1961">וַֽ/יְהִי</w><seg type="x-maqqef">־</seg><w lemma="6153">עֶ֥רֶב</w>
           <w lemma="c/1961">וַֽ/יְהִי</w><seg type="x-maqqef">־</seg><w lemma="1242" n="0.0">בֹ֖קֶר</w>
