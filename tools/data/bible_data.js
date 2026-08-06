@@ -3535,8 +3535,16 @@ addNames('tur', DEFAULT_BIBLE, [
 
 ]);
 
-
-
+//Vietnamese
+var VietNames = [
+	"Sáng Thế Ký","Xuất Ê-díp-tô Ký","Lê-vi Ký","Dân Số Ký","Phục Truyền Luật Lệ Ký","Giô-suê","Các Quan Xét","Ru-tơ","1 Sa-mu-ên","2 Sa-mu-ên","1 Các Vua","2 Các Vua","1 Sử Ký","2 Sử Ký","E-xơ-ra","Nê-hê-mi","Ê-xơ-tê",["Gióp","Gióp"],"Thi Thiên","Châm Ngôn","Truyền Đạo","Nhã Ca","Ê-sai","Giê-rê-mi",["Ca Thương","Ai Ca"],["Ê-xê-chi-ên","Ê-xê-chi-ên"],"Đa-ni-ên","Ô-sê","Giô-ên","A-mốt","Áp-đia","Giô-na","Mi-chê","Na-hum","Ha-ba-cúc","Sô-phô-ni","A-ghê","Xa-cha-ri","Ma-la-chi",
+	"Ma-thi-ơ","Mác","Lu-ca","Giăng","Công Vụ Các Sứ Đồ","Rô-ma","1 Cô-rinh-tô","2 Cô-rinh-tô","Ga-la-ti","Ê-phê-sô","Phi-líp","Cô-lô-se","1 Tê-sa-lô-ni-ca","2 Tê-sa-lô-ni-ca","1 Ti-mô-thê","2 Ti-mô-thê","Tít","Phi-lê-môn","Hê-bơ-rơ","Gia-cơ","1 Phi-e-rơ","2 Phi-e-rơ","1 Giăng","2 Giăng","3 Giăng","Giu-đe","Khải Huyền"
+];
+addNames("vi", DEFAULT_BIBLE, VietNames);
+addNames("vni", DEFAULT_BIBLE, VietNames);
+addNames("vnm", DEFAULT_BIBLE, VietNames);
+addNames("vn_vni2018", DEFAULT_BIBLE, VietNames);
+//msToan add names of Bible books in Vietnamese
 
 module.exports = {
 	getBookInfoByUnboundCode: getBookInfoByUnboundCode,

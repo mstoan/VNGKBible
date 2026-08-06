@@ -1,10 +1,10 @@
 
-// Login Information Here
+// msToan Login Information Here
 // const userCredential = {
 // 	admin: 'bibleadmin',
 // 	user1: 'bibleuser1-123',
 // 	user2: 'bibleuser2-123'
-// }
+// } //msToan Login Information
 
 $(function startup() {
 	// hide initial text area
@@ -87,11 +87,14 @@ $(function startup() {
 		// create app
 		sofia.app = new App();
 		sofia.app.init();
-
+// msToan debug
+//if (confirm("Done start up Continue?")) {
+// msToan debug
+//}
 		$('.i18n').i18n();
 	}
 });
-
+//msToan Login function
 // function login() {
 // 	var username = $('#username').val();
 // 	var password = $('#password').val();
