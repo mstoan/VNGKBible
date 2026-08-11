@@ -169,11 +169,9 @@ var Scroller = function(node) {
 
 						label = bibleref.toString();
 						labelLong = label +  ' (' + currentTextInfo.abbr + ')';
-
 						break;
 					case 'book':
 						labelLong = label = currentTextInfo.name + ' ' + sectionid;
-
 						break;
 				}
 
@@ -247,10 +245,8 @@ var Scroller = function(node) {
 
 		// only load if stopped
 		if (speedDelta == 0) {
-			
 			// add below
 			if (below_bottom < node_height*2) {
-	
 				fragmentid = sections
 								.last() // the last chapter (bottom)
 								.attr( 'data-nextid' );
@@ -258,8 +254,6 @@ var Scroller = function(node) {
 				if (fragmentid != null && fragmentid != 'null' && sections.length < 50) {
 					load('next', fragmentid);
 				}
-	
-	
 			}
 	
 			// add above

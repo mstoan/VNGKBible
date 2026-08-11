@@ -6,6 +6,7 @@
 
 
 // Depends on bible.data.js
+// When click on the top left bible reference number
 
 bible.parseReference = function (textReference, language) {
 
@@ -28,7 +29,6 @@ bible.parseReference = function (textReference, language) {
 		name,
 		possibleMatch,
 		shortCodeRegex = /^\w{2}\d{1,3}(_\d{1,3})?$/;
-
 	// is short code format (GN2 || GN2_1)
 	//bible.shortCodeRegex.lastIndex = 0;
 	if (shortCodeRegex.test(input)) {
@@ -48,8 +48,6 @@ bible.parseReference = function (textReference, language) {
 	}
 
 	// check books for DBS, OSIS, USFM
-
-
 	// go through all books and test all names
 	for (bookid in bible.BOOK_DATA) {
 

@@ -75,7 +75,6 @@ var ReaderApp = function($) {
 
 			load_more();
 		});
-
 	}
 
 	function text_changed(newTextInfo) {

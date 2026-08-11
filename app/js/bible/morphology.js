@@ -2,11 +2,11 @@
 if (typeof(window.bible) == 'undefined')
 	window.bible = {};
 
-
+// msToan Runs in WLC and VNI window
 bible.morphology = {};
 
 // http://wiki.logos.com/Morphology_Codes
-//
+// When hover or click on a Greek word
 bible.morphology['robinson'] = {
 
 	format: function(morph) {
@@ -108,6 +108,9 @@ bible.morphology['robinson'] = {
 			default:
 				formattedParsing =  parsingInfo;
 		}
+// msToan debug
+//confirm("bible.morphology['robinson']");
+//
 /* DEBUG STRING - msToan
 formattedParsing = 't=' + t + '| ' + 'v=' + v + '| ' + 'm=' + m + '| ' + 'Rem=' + rem.length + ':' + rem;
 formattedParsing += '| test:' + rem.substring(2, 3) + '||' + rem.substring(3, 4) + '||' + rem.substring(4, 5) + '----' + 'c=' + c + '| ' + 'p=' + p + '| ' + 'n=' + n + '| ' + 'g=' + g; + '= ' + ', ' + v + ', ' + m + ', ' + c + ', ' + n + ', ' + g;
