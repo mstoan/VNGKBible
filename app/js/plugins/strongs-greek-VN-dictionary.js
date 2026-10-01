@@ -5237,7 +5237,7 @@ var strongsGreekVNDictionary = {"G3143":{"derivation":"middle voice from G3144 (
 "G3077":{"derivation":"apparently a primary word;","lemma":"λύπη","kjv_def":"grief, grievous, + grudgingly, heaviness, sorrow","strongs_def":" sadness"},
 "G578":{"derivation":"from G575 (ἀποβλέπω) and G991 (ἀποβλέπω);","lemma":"ἀποβλέπω","kjv_def":"have respect","strongs_def":" to look away from everything else, i.e. (figuratively) intently regard"},
 "G2133":{"derivation":"from the same as G2132 (εὔνοια);","lemma":"εὔνοια","kjv_def":"benevolence, good will","strongs_def":" kindness; euphemistically, conjugal duty"},
-"G4739":{"derivation":"from the perfect tense of G2476 (στήκω);","lemma":"στήκω","kjv_def":"đứng [vững]","strongs_def":" to be stationary, i.e. (figuratively) to persevere"},
+"G4739":{"derivation":"from the perfect tense of G2476 (στήκω);","lemma":"στήκω","kjv_def":"vững vàng","strongs_def":" to be stationary, i.e. (figuratively) to persevere"},
 "G2847":{"derivation":"from G2848 (κόκκινος) (from the kernel-shape of the insect);","lemma":"κόκκινος","kjv_def":"scarlet (colour, coloured)","strongs_def":" crimson-colored"},
 "G526":{"derivation":"from G575 (ἀπαλλοτριόω) and a derivative of G245 (ἀπαλλοτριόω);","lemma":"ἀπαλλοτριόω","kjv_def":" alienate, be alien","strongs_def":" to estrange away, i.e. (passively and figuratively) to be non-participant"},
 "G4493":{"derivation":"from G4496 (ῥιπή);","lemma":"ῥιπή","kjv_def":"twinkling","strongs_def":" a jerk (of the eye, i.e. (by analogy) an instant)"},
